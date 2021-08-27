@@ -20,7 +20,11 @@ Controls.Popup {
     dim: true
 
     onOpened: {
-        testModelView.forceActiveFocus()
+        if(testModelView.count > 0){
+            testModelView.forceActiveFocus()
+        } else {
+            fileModelFolderSelector.forceActiveFocus()
+        }
     }
 
     Controls.Overlay.modeless: Rectangle {
@@ -35,7 +39,7 @@ Controls.Popup {
 
     FolderListModel {
         id: folderModel
-        folder: Qt.resolvedUrl("file:///home/aix/Videos")
+        folder: Qt.resolvedUrl("file://" + HomeDirectory)
         rootFolder: Qt.resolvedUrl("file:///")
         showDirs: true
         showFiles: false
@@ -120,8 +124,6 @@ Controls.Popup {
                     text: fileName
 
                     onClicked: {
-                        //folderModel.folder = fileName
-                        console.log(fileUrl)
                         folderModel.folder = fileUrl
                     }
                 }
@@ -150,6 +152,16 @@ Controls.Popup {
                     }
                 }
 
+                onCountChanged: {
+                    if(testModelView.count > 0){
+                        testModelView.forceActiveFocus()
+                        testModelView.currentIndex = 0
+                        fileModelFolderSelector.currentIndex = 0
+                    } else {
+                        fileModelFolderSelector.forceActiveFocus()
+                        fileModelFolderSelector.currentIndex = 0
+                    }
+                }
 
                 move: Transition {
                     SmoothedAnimation {

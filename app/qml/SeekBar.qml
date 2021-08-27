@@ -35,7 +35,7 @@ Item {
             property bool navSliderItem
 
             onMoved: {
-                seekControl.seekPosition = value;
+                video.seek(value);
             }
 
             onNavSliderItemChanged: {
@@ -110,6 +110,7 @@ Item {
                     pinOsdButton.forceActiveFocus()
                 }
             }
+
         }
 
         Controls.Label {

@@ -22,6 +22,7 @@ Kirigami.AbstractApplicationWindow {
     property alias videoStatus: video.status
 
     Component.onCompleted: {
+        console.log(HomeDirectory)
         playerOSDItem.opened = true
     }
 
