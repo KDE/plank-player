@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=PlankPlayer
 Name[ca]=PlankPlayer
+Name[ca@valencia]=PlankPlayer
 Name[cs]=PlankPlayer
 Name[es]=PlankPlayer
 Name[eu]=PlankPlayer
@@ -21,6 +22,7 @@ Type=Application
 NoDisplay=@DesktopNoDisplay@
 GenericName=PlankPlayer
 GenericName[ca]=PlankPlayer
+GenericName[ca@valencia]=PlankPlayer
 GenericName[cs]=PlankPlayer
 GenericName[es]=PlankPlayer
 GenericName[eu]=Plank Jotzailea
@@ -37,6 +39,7 @@ GenericName[x-test]=xxPlankPlayerxx
 Categories=Qt;KDE;Multimedia;Player;
 Keywords=program;multimedia;Player;
 Keywords[ca]=programa;multimedia;reproductor;
+Keywords[ca@valencia]=programa;multimedia;reproductor;
 Keywords[cs]=program;multimédia;přehrávač;
 Keywords[es]=programa;multimedia;Reproductor;
 Keywords[eu]=programa;multimedia;Player;Jotzailea;
