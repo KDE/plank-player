@@ -35,5 +35,16 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
     Kirigami2
 )
 
+include(ECMQMLModules)
+ecm_find_qmlmodule(QtQuick 2.12)
+ecm_find_qmlmodule(QtQuick.Window 2.12)
+ecm_find_qmlmodule(QtQuick.Controls 2.12)
+ecm_find_qmlmodule(QtQuick.Layouts 1.12)
+ecm_find_qmlmodule(QtMultimedia 5.12)
+ecm_find_qmlmodule(org.kde.kirigami 2.12)
+ecm_find_qmlmodule(Qt.labs.folderlistmodel 2.12)
+ecm_find_qmlmodule(QtQuick.Templates 2.12)
+ecm_find_qmlmodule(QtGraphicalEffects 1.0)
+
 add_subdirectory(app)
 add_subdirectory(icons)

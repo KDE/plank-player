@@ -5,7 +5,6 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Layouts 1.12
-import QtQuick.VirtualKeyboard 2.4
 import org.kde.kirigami 2.12 as Kirigami
 import QtQuick.Controls 2.12 as Controls
 import QtMultimedia 5.12
