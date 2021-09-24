@@ -61,7 +61,15 @@ Kirigami.AbstractApplicationWindow {
             MouseArea {
                 anchors.fill: parent
                 onClicked: {
-                    playerOSDItem.opened = !playerOSDItem.opened
+                    if(!playerOSDItem.pinned){
+                       playerOSDItem.opened = !playerOSDItem.opened
+                    }
+                }
+            }
+
+            onStatusChanged: {
+                if(status == MediaPlayer.EndOfMedia){
+                    video.stop()
                 }
             }
         }

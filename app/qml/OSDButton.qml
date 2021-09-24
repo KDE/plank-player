@@ -14,6 +14,7 @@ QQCT.Button {
      property alias iconSource: osdBtnIcon.source
 
      background: Rectangle {
+         id: osdBtnBackground
          color: osdBtn.activeFocus ? Kirigami.Theme.highlightColor : Kirigami.Theme.backgroundColor
          border.color: Kirigami.Theme.disabledTextColor
      }

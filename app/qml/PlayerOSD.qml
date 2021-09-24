@@ -15,6 +15,7 @@ Item {
     property bool opened: false
     property bool menuOpened
     property var videoItem
+    property bool pinned: false
 
     onOpenedChanged: {
         if(opened){
@@ -27,9 +28,11 @@ Item {
         id: hideTimer
         interval: 5000
         onTriggered: {
-            osdControlsArea.opened = false;
-            if(!menuOpened){
-                videoItem.forceActiveFocus();
+            if(!osdControlsArea.pinned){
+                osdControlsArea.opened = false;
+                if(!menuOpened){
+                    videoItem.forceActiveFocus();
+                }
             }
         }
     }
@@ -117,18 +120,18 @@ Item {
                 id: pinOsdButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "pin"
-                checkable: true
+                iconSource: "unlock"
                 KeyNavigation.right: fitVidOsdButton
                 KeyNavigation.left: osdSeekBar
 
                 onClicked: {
-                    if(!checked){
-                        hideTimer.stop()
-                        pinOsdButton.checked = true
+                    console.log(osdControlsArea.pinned)
+                    if(!osdControlsArea.pinned){
+                        pinOsdButton.iconSource = "lock"
+                        osdControlsArea.pinned = true
                     } else {
-                        hideTimer.restart()
-                        pinOsdButton.checked = false
+                        pinOsdButton.iconSource = "unlock"
+                        osdControlsArea.pinned = false
                     }
                 }
             }
