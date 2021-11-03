@@ -3,6 +3,7 @@ Name=PlankPlayer
 Name[ca]=PlankPlayer
 Name[ca@valencia]=PlankPlayer
 Name[cs]=PlankPlayer
+Name[de]=PlankPlayer
 Name[en_GB]=PlankPlayer
 Name[es]=PlankPlayer
 Name[eu]=PlankPlayer
