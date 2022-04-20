@@ -35,7 +35,7 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
     Kirigami2
 )
 
-include(ECMQMLModules)
+include(ECMFindQmlModule)
 ecm_find_qmlmodule(QtQuick 2.12)
 ecm_find_qmlmodule(QtQuick.Window 2.12)
 ecm_find_qmlmodule(QtQuick.Controls 2.12)
