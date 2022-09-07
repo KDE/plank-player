@@ -17,7 +17,7 @@ set(QT_MIN_VERSION "5.15.2")
 set(AUTORCC_OPTIONS "/app/qml.qrc")
 
 find_package(ECM REQUIRED NO_MODULE)
-set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} "${CMAKE_SOURCE_DIR}/cmake")
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
