@@ -12,7 +12,7 @@ import QtMultimedia 5.12
 Kirigami.AbstractApplicationWindow {
     id: window
     visible: true
-    title: qsTr("PlankPlayer")
+    title: i18n("PlankPlayer")
     color: Kirigami.Theme.backgroundColor
     width:  Screen.desktopAvailableWidth
     height: Screen.desktopAvailableHeight

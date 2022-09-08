@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.kde.invent.plank_player</id>
+  
+  <name>Plank Player</name>
+  <summary>Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+    <control>gamepad</control>
+  </supports>
+  
+  <description>
+    <p>
+      Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
+    </p>
+  </description>
+  <project_group>KDE</project_group>
+  
+  <launchable type="desktop-id">org.plank.player.desktop</launchable>
+</component>

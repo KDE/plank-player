@@ -8,6 +8,9 @@
 #include <QStandardPaths>
 #include <QQmlContext>
 
+#include <KLocalizedContext>
+#include <KLocalizedString>
+
 int main(int argc, char *argv[])
 {
     qputenv("QT_VIRTUALKEYBOARD_DESKTOP_DISABLE", QByteArray("0"));
@@ -22,8 +25,10 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     QQuickStyle::setFallbackStyle(QStringLiteral("Fusion"));
     QGuiApplication app(argc, argv);
+    KLocalizedString::setApplicationDomain("plank-player");
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     QUrl homePath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
     engine.rootContext()->setContextProperty(QStringLiteral("HomeDirectory"), homePath);
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));

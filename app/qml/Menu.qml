@@ -88,7 +88,7 @@ Controls.Popup {
 
             Controls.Label {
                 id: backbtnlabelHeading
-                text: "Press 'esc' or the [←] Back button to close"
+                text: i18n("Press 'esc' or the [←] Back button to close")
                 Layout.alignment: Qt.AlignRight
             }
         }
@@ -120,7 +120,7 @@ Controls.Popup {
                 KeyNavigation.right: testModelView
                 delegate: MenuButton {
                     iconSource: "folder"
-                    text: fileName
+                    text: i18n(fileName)
 
                     onClicked: {
                         folderModel.folder = fileUrl

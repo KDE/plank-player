@@ -14,14 +14,16 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(QT_MIN_VERSION "5.15.2")
+set(KF5_MIN_VERSION "5.97.0")
+set(KDE_COMPILERSETTINGS_LEVEL "5.84.0")
 set(AUTORCC_OPTIONS "/app/qml.qrc")
 
-find_package(ECM REQUIRED NO_MODULE)
+find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
-include(KDECompilerSettings)
+include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMInstallIcons)
 include(FeatureSummary)
 
@@ -35,6 +37,7 @@ find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS
 
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
     Kirigami2
+    I18n
 )
 
 include(ECMFindQmlModule)
@@ -50,3 +53,5 @@ ecm_find_qmlmodule(QtGraphicalEffects 1.0)
 
 add_subdirectory(app)
 add_subdirectory(icons)
+
+install(FILES org.kde.invent.plank_player.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
