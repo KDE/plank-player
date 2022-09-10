@@ -1,5 +1,12 @@
 [Desktop Entry]
 Name=Plank Player
+Name[ca]=Reproductor Plank
+Name[ca@valencia]=Reproductor Plank
+Name[es]=Reproductor Plank
+Name[nl]=Plank-speler
+Name[pt]=Leitor Plank
+Name[tr]=Plank Oynatıcı
+Name[x-test]=xxPlank Playerxx
 MimeType=@DesktopMimeType@
 Exec=@DesktopExec@
 Icon=plank-player
@@ -23,7 +30,7 @@ GenericName[ko]=PlankPlayer
 GenericName[nl]=PlankPlayer
 GenericName[nn]=PlankPlayer
 GenericName[pl]=PlankPlayer
-GenericName[pt]=PlankPlayer
+GenericName[pt]=Leitor Plank
 GenericName[pt_BR]=PlankPlayer
 GenericName[ro]=PlankPlayer
 GenericName[sk]=PlankPlayer
