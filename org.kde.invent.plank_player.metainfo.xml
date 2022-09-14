@@ -54,4 +54,10 @@
   </description>
   <project_group>KDE</project_group>
   <launchable type="desktop-id">org.plank.player.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Plank Player</caption>
+      <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
+    </screenshot>
+  </screenshots>
 </component>
