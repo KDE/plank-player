@@ -57,6 +57,18 @@
   <screenshots>
     <screenshot type="default">
       <caption>Plank Player</caption>
+      <caption xml:lang="ca">Reproductor Plank</caption>
+      <caption xml:lang="ca-valencia">Reproductor Plank</caption>
+      <caption xml:lang="en-GB">Plank Player</caption>
+      <caption xml:lang="es">Reproductor Plank</caption>
+      <caption xml:lang="eu">Plank Jotzailea</caption>
+      <caption xml:lang="fr">Lecteur Plank</caption>
+      <caption xml:lang="nl">Plank-speler</caption>
+      <caption xml:lang="pt">Leitor Plank</caption>
+      <caption xml:lang="sl">Plank Player</caption>
+      <caption xml:lang="tr">Plank Oynatıcı</caption>
+      <caption xml:lang="uk">Програвач Plank</caption>
+      <caption xml:lang="x-test">xxPlank Playerxx</caption>
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
     </screenshot>
   </screenshots>
