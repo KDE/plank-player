@@ -11,6 +11,7 @@
   <name xml:lang="nl">Plank-speler</name>
   <name xml:lang="pt">Leitor Plank</name>
   <name xml:lang="sl">Plank Player</name>
+  <name xml:lang="sv">Plank spelare</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="uk">Програвач Plank</name>
   <name xml:lang="x-test">xxPlank Playerxx</name>
@@ -24,6 +25,7 @@
   <summary xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</summary>
   <summary xml:lang="pt">Leitor multimédia para reproduzir ficheiros locais no Plasma para ecrãs grandes, permitindo a navegação com um comando à distância</summary>
   <summary xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</summary>
+  <summary xml:lang="sv">Multimediaspelare för att spela upp lokala filer på Plasma storbildsskärm som möjliggör navigering med bara en fjärrkontroll</summary>
   <summary xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</summary>
   <summary xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</summary>
@@ -48,6 +50,7 @@
     <p xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</p>
     <p xml:lang="pt">Leitor multimédia para reproduzir ficheiros locais no Plasma para ecrãs grandes, permitindo a navegação com um comando à distância</p>
     <p xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</p>
+    <p xml:lang="sv">Multimediaspelare för att spela upp lokala filer på Plasma storbildsskärm som möjliggör navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
     <p xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</p>
@@ -66,6 +69,7 @@
       <caption xml:lang="nl">Plank-speler</caption>
       <caption xml:lang="pt">Leitor Plank</caption>
       <caption xml:lang="sl">Plank Player</caption>
+      <caption xml:lang="sv">Plank spelare</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
       <caption xml:lang="x-test">xxPlank Playerxx</caption>
