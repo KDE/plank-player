@@ -11,6 +11,7 @@
   <name xml:lang="it">Plank Player</name>
   <name xml:lang="nl">Plank-speler</name>
   <name xml:lang="pt">Leitor Plank</name>
+  <name xml:lang="sk">Prehrávač Plank</name>
   <name xml:lang="sl">Plank Player</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="uk">Програвач Plank</name>
@@ -69,6 +70,7 @@
       <caption xml:lang="it">Plank Player</caption>
       <caption xml:lang="nl">Plank-speler</caption>
       <caption xml:lang="pt">Leitor Plank</caption>
+      <caption xml:lang="sk">Prehrávač Plank</caption>
       <caption xml:lang="sl">Plank Player</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
