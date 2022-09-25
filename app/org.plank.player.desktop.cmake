@@ -13,6 +13,7 @@ Name[nn]=Plank Player
 Name[pl]=Odtwarzacz Plank
 Name[pt]=Leitor Plank
 Name[sl]=Plank Player
+Name[sv]=Plank spelare
 Name[tr]=Plank Oynatıcı
 Name[uk]=Програвач Plank
 Name[x-test]=xxPlank Playerxx
