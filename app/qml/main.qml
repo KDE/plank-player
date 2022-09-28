@@ -17,12 +17,16 @@ Kirigami.AbstractApplicationWindow {
     width:  Screen.desktopAvailableWidth
     height: Screen.desktopAvailableHeight
     visibility: "FullScreen"
-    property var videoSource
+    property var videoSource: argumentFileUrl ? argumentFileUrl : ""
     property alias videoStatus: video.status
 
     Component.onCompleted: {
         console.log(HomeDirectory)
         playerOSDItem.opened = true
+        if(videoSource !== "") {
+            video.source = videoSource
+            video.play()
+        }
     }
 
     onVideoSourceChanged: {

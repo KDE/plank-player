@@ -13,6 +13,11 @@
 
 int main(int argc, char *argv[])
 {
+    QStringList arguments;
+    for (int a = 0; a < argc; ++a) {
+        arguments << QString::fromLocal8Bit(argv[a]);
+    }
+
     qputenv("QT_VIRTUALKEYBOARD_DESKTOP_DISABLE", QByteArray("0"));
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
@@ -31,6 +36,18 @@ int main(int argc, char *argv[])
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     QUrl homePath(QStandardPaths::writableLocation(QStandardPaths::HomeLocation));
     engine.rootContext()->setContextProperty(QStringLiteral("HomeDirectory"), homePath);
+
+    QString argumentFileUrl;
+
+    if (arguments.count() > 1) {
+        QUrl url = QUrl::fromUserInput(arguments.at(1));
+        if (url.isValid()) {
+            argumentFileUrl = url.toString();
+        }
+    }
+
+    engine.rootContext()->setContextProperty(QStringLiteral("argumentFileUrl"), argumentFileUrl);
+
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
