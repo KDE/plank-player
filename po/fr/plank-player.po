@@ -1,0 +1,27 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-player\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-09 00:49+0000\n"
+"PO-Revision-Date: 2022-09-10 18:41+0200\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.08.1\n"
+
+#: app/qml/main.qml:15
+#, kde-format
+msgid "PlankPlayer"
+msgstr "Lecteur Plank"
+
+#: app/qml/Menu.qml:93
+#, kde-format
+msgid "Press 'esc' or the [←] Back button to close"
+msgstr ""
+"Veuillez appuyer sur la touche « ESC » ou sur le bouton de retour en "
+"arrière  [←] pour fermer."
