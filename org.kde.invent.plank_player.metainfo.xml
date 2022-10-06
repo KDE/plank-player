@@ -90,4 +90,7 @@
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
     </screenshot>
   </screenshots>
+  <releases>
+    <release version="5.26.0" date="2022-10-11"/>
+  </releases>
 </component>
