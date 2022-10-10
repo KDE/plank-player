@@ -55,3 +55,5 @@ add_subdirectory(app)
 add_subdirectory(icons)
 
 install(FILES org.kde.invent.plank_player.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
