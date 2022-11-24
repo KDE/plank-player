@@ -10,6 +10,7 @@
   <name xml:lang="fi">Plank Player</name>
   <name xml:lang="fr">Lecteur Plank</name>
   <name xml:lang="it">Plank Player</name>
+  <name xml:lang="ka">PlankPlayer</name>
   <name xml:lang="nl">Plank-speler</name>
   <name xml:lang="nn">Plank Player</name>
   <name xml:lang="pl">Odtwarzacz Plank</name>
@@ -31,6 +32,7 @@
   <summary xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</summary>
   <summary xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</summary>
   <summary xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</summary>
+  <summary xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</summary>
   <summary xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</summary>
   <summary xml:lang="nn">Multimedie­spelar for avspeling av lokale filer på Plasma Bigscreen og navigering med fjernkontroll</summary>
   <summary xml:lang="pl">Odtwarzacz multimedialny do odgrywania miejscowych plików na Dużym Ekranie Plazmy, który umożliwia poruszanie się przy użyciu wyłącznie pilota</summary>
@@ -62,6 +64,7 @@
     <p xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</p>
     <p xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</p>
     <p xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</p>
+    <p xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</p>
     <p xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</p>
     <p xml:lang="nn">Multimedie­spelar for avspeling av lokale filer på Plasma Bigscreen og navigering med fjernkontroll</p>
     <p xml:lang="pl">Odtwarzacz multimedialny do odgrywania miejscowych plików na Dużym Ekranie Plazmy, który umożliwia poruszanie się przy użyciu wyłącznie pilota</p>
@@ -87,6 +90,7 @@
       <caption xml:lang="fi">Plank Player</caption>
       <caption xml:lang="fr">Lecteur Plank</caption>
       <caption xml:lang="it">Plank Player</caption>
+      <caption xml:lang="ka">PlankPlayer</caption>
       <caption xml:lang="nl">Plank-speler</caption>
       <caption xml:lang="nn">Plank Player</caption>
       <caption xml:lang="pl">Odtwarzacz Plank</caption>
