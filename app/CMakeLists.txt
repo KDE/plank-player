@@ -1,14 +1,14 @@
-qt5_add_resources(plank_player_SRCS qml.qrc)
+qt_add_resources(plank_player_SRCS qml.qrc)
 add_executable(plank-player ${plank_player_SRCS}
     main.cpp
 )
 
 target_link_libraries(plank-player
-    Qt5::Quick
-    Qt5::Core 
-    Qt5::Qml
-    Qt5::QuickControls2
-    Qt5::Multimedia
+    Qt::Quick
+    Qt::Core
+    Qt::Qml
+    Qt::QuickControls2
+    Qt::Multimedia
     KF5::Kirigami2
     KF5::I18n
 )
