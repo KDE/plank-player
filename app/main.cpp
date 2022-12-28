@@ -24,8 +24,8 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
     QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
-    QCoreApplication::setOrganizationName("PlankPlayer");
-    QCoreApplication::setApplicationName("PlankPlayer");
+    QCoreApplication::setOrganizationName(QStringLiteral("PlankPlayer"));
+    QCoreApplication::setApplicationName(QStringLiteral("PlankPlayer"));
 
     QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     QQuickStyle::setFallbackStyle(QStringLiteral("Fusion"));
