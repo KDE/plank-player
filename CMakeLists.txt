@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 project(PlankPlayer LANGUAGES CXX)
-set(PROJECT_VERSION "5.26.80")
+set(PROJECT_VERSION "5.26.90")
 set(PROJECT_VERSION_MAJOR 5)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
