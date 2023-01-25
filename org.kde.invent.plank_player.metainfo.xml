@@ -4,6 +4,7 @@
   <name>Plank Player</name>
   <name xml:lang="ca">Reproductor Plank</name>
   <name xml:lang="ca-valencia">Reproductor Plank</name>
+  <name xml:lang="cs">Plank Player</name>
   <name xml:lang="en-GB">Plank Player</name>
   <name xml:lang="es">Reproductor Plank</name>
   <name xml:lang="eu">Plank Jotzailea</name>
@@ -84,6 +85,7 @@
       <caption>Plank Player</caption>
       <caption xml:lang="ca">Reproductor Plank</caption>
       <caption xml:lang="ca-valencia">Reproductor Plank</caption>
+      <caption xml:lang="cs">Plank Player</caption>
       <caption xml:lang="en-GB">Plank Player</caption>
       <caption xml:lang="es">Reproductor Plank</caption>
       <caption xml:lang="eu">Plank Jotzailea</caption>
