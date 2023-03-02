@@ -9,6 +9,7 @@ Name[eu]=Plank Jotzailea
 Name[fr]=Lecteur Plank
 Name[it]=Plank Player
 Name[ka]=PlankPlayer
+Name[ko]=Plank Player
 Name[nl]=Plank-speler
 Name[nn]=Plank Player
 Name[pl]=Odtwarzacz Plank
