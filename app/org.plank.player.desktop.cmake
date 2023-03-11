@@ -6,6 +6,7 @@ Name[cs]=Plank Player
 Name[en_GB]=Plank Player
 Name[es]=Reproductor Plank
 Name[eu]=Plank Jotzailea
+Name[fi]=Plank Player
 Name[fr]=Lecteur Plank
 Name[it]=Plank Player
 Name[ka]=PlankPlayer
