@@ -3,6 +3,7 @@ Name=Plank Player
 Name[ca]=Reproductor Plank
 Name[ca@valencia]=Reproductor Plank
 Name[cs]=Plank Player
+Name[de]=Plank Player
 Name[en_GB]=Plank Player
 Name[es]=Reproductor Plank
 Name[eu]=Plank Jotzailea
