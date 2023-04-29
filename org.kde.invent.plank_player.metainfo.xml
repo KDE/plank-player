@@ -10,6 +10,7 @@
   <name xml:lang="eu">Plank Jotzailea</name>
   <name xml:lang="fi">Plank Player</name>
   <name xml:lang="fr">Lecteur Plank</name>
+  <name xml:lang="gl">Reprodutor Plank</name>
   <name xml:lang="it">Plank Player</name>
   <name xml:lang="ka">PlankPlayer</name>
   <name xml:lang="ko">Plank 플레이어</name>
@@ -33,6 +34,7 @@
   <summary xml:lang="eu">Plasma Bigscreen-en fitxategi lokalak jotzeko multimedia jotzailea, urruneko aginte soil batekin nabigatzeko aukera eskaintzen duena</summary>
   <summary xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</summary>
   <summary xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</summary>
+  <summary xml:lang="gl">Reprodutor multimedia para reproducir ficheiros locais en Plasma Bigscreen permitindo navegar só cun mando a distancia</summary>
   <summary xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</summary>
   <summary xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</summary>
   <summary xml:lang="ko">Plasma 큰 화면에서 로컬 파일을 재생할 수 있고 리모콘으로 탐색할 수 있는 멀티미디어 재생기</summary>
@@ -66,6 +68,7 @@
     <p xml:lang="eu">Plasma Bigscreen-en fitxategi lokalak jotzeko multimedia jotzailea, urruneko aginte soil batekin nabigatzeko aukera eskaintzen duena</p>
     <p xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</p>
     <p xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</p>
+    <p xml:lang="gl">Reprodutor multimedia para reproducir ficheiros locais en Plasma Bigscreen permitindo navegar só cun mando a distancia</p>
     <p xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</p>
     <p xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</p>
     <p xml:lang="ko">Plasma 큰 화면에서 로컬 파일을 재생할 수 있고 리모콘으로 탐색할 수 있는 멀티미디어 재생기</p>
@@ -94,6 +97,7 @@
       <caption xml:lang="eu">Plank Jotzailea</caption>
       <caption xml:lang="fi">Plank Player</caption>
       <caption xml:lang="fr">Lecteur Plank</caption>
+      <caption xml:lang="gl">Reprodutor Plank</caption>
       <caption xml:lang="it">Plank Player</caption>
       <caption xml:lang="ka">PlankPlayer</caption>
       <caption xml:lang="ko">Plank 플레이어</caption>
