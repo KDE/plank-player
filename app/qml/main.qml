@@ -2,12 +2,12 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.12
-import QtQuick.Window 2.12
-import QtQuick.Layouts 1.12
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.12 as Controls
-import QtMultimedia 5.12
+import QtQuick 2.15
+import QtQuick.Window 2.15
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.19 as Kirigami
+import QtQuick.Controls 2.15 as Controls
+import QtMultimedia
 
 Kirigami.AbstractApplicationWindow {
     id: window
@@ -18,7 +18,6 @@ Kirigami.AbstractApplicationWindow {
     height: Screen.desktopAvailableHeight
     visibility: "FullScreen"
     property var videoSource: argumentFileUrl ? argumentFileUrl : ""
-    property alias videoStatus: video.status
 
     Component.onCompleted: {
         console.log(HomeDirectory)
@@ -55,24 +54,22 @@ Kirigami.AbstractApplicationWindow {
             anchors.right: parent.right
             anchors.bottom: playerOSDItem.opened ? playerOSDItem.top : parent.bottom
             focus: true
-            autoLoad: true
-            autoPlay: false
 
-            Keys.onDownPressed: {
+            Keys.onDownPressed: (event)=> {
                 playerOSDItem.opened = true
             }
 
             MouseArea {
                 anchors.fill: parent
-                onClicked: {
+                onClicked: (mouse)=> {
                     if(!playerOSDItem.pinned){
                        playerOSDItem.opened = !playerOSDItem.opened
                     }
                 }
             }
 
-            onStatusChanged: {
-                if(status == MediaPlayer.EndOfMedia){
+            onPlaybackStateChanged: {
+                if(video.playbackState == MediaPlayer.StoppedState){
                     video.stop()
                 }
             }

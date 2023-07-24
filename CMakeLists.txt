@@ -10,14 +10,14 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(QT_MIN_VERSION "5.15.2")
-set(KF5_MIN_VERSION "5.102.0")
+set(QT_MIN_VERSION "6.4.0")
+set(KF5_MIN_VERSION "5.240.0")
 set(AUTORCC_OPTIONS "/app/qml.qrc")
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 
 include(KDEInstallDirs)
@@ -34,21 +34,21 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Multimedia
 )
 
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED
     Kirigami2
     I18n
 )
 
 include(ECMFindQmlModule)
-ecm_find_qmlmodule(QtQuick 2.12)
-ecm_find_qmlmodule(QtQuick.Window 2.12)
-ecm_find_qmlmodule(QtQuick.Controls 2.12)
-ecm_find_qmlmodule(QtQuick.Layouts 1.12)
-ecm_find_qmlmodule(QtMultimedia 5.12)
-ecm_find_qmlmodule(org.kde.kirigami 2.12)
-ecm_find_qmlmodule(Qt.labs.folderlistmodel 2.12)
-ecm_find_qmlmodule(QtQuick.Templates 2.12)
-ecm_find_qmlmodule(QtGraphicalEffects 1.0)
+ecm_find_qmlmodule(QtQuick 2.15)
+ecm_find_qmlmodule(QtQuick.Window 2.15)
+ecm_find_qmlmodule(QtQuick.Controls 2.15)
+ecm_find_qmlmodule(QtQuick.Layouts 1.15)
+ecm_find_qmlmodule(org.kde.kirigami 2.19)
+ecm_find_qmlmodule(Qt.labs.folderlistmodel 2.15)
+ecm_find_qmlmodule(QtQuick.Templates 2.15)
+ecm_find_qmlmodule(QtMultimedia 2.15)
+ecm_find_qmlmodule(Qt5Compat.GraphicalEffects 2.15)
 
 add_subdirectory(app)
 add_subdirectory(icons)

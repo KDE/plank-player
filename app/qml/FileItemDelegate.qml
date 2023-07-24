@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.12
-import QtQuick.Layouts 1.12
-import QtQuick.Controls 2.12
-import org.kde.kirigami 2.12 as Kirigami
-import QtGraphicalEffects 1.0
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Controls 2.15
+import org.kde.kirigami 2.19 as Kirigami
+import Qt5Compat.GraphicalEffects
 
 ItemDelegate {
     id: delegate
@@ -257,7 +257,7 @@ ItemDelegate {
         }
     }
 
-    Keys.onReturnPressed: {
+    Keys.onReturnPressed: (event)=> {
         clicked()
     }
 }

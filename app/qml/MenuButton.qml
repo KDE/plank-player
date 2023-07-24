@@ -2,10 +2,10 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.12
-import QtQuick.Layouts 1.12
-import QtQuick.Templates 2.12 as QQCT
-import org.kde.kirigami 2.12 as Kirigami
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import QtQuick.Templates 2.15 as QQCT
+import org.kde.kirigami 2.19 as Kirigami
 
 QQCT.Button {
      id: menuBtn
@@ -45,7 +45,7 @@ QQCT.Button {
          }
      }
 
-     Keys.onReturnPressed: {
+     Keys.onReturnPressed: (event)=> {
          clicked()
      }
  }

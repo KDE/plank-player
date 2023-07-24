@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-import QtQuick 2.12
-import QtQuick.Layouts 1.12
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.12 as Controls
-import QtMultimedia 5.12
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
+import org.kde.kirigami 2.15 as Kirigami
+import QtQuick.Controls 2.15 as Controls
+import QtMultimedia
 
 Item {
     id: osdControlsArea
@@ -62,7 +62,7 @@ Item {
                 iconSource: "menu_new"
                 KeyNavigation.right: playPauseButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     mainMenu.open()
                 }
             }
@@ -75,7 +75,7 @@ Item {
                 KeyNavigation.right: mediaSkipBckButton
                 KeyNavigation.left: menuButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     videoItem.playbackState === MediaPlayer.PlayingState ? videoItem.pause() : videoItem.play()
                 }
             }
@@ -88,7 +88,7 @@ Item {
                 KeyNavigation.right: mediaSkipFwdButton
                 KeyNavigation.left: playPauseButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     videoItem.seek(videoItem.position - 5000)
                 }
             }
@@ -101,7 +101,7 @@ Item {
                 KeyNavigation.right: osdSeekBar
                 KeyNavigation.left: mediaSkipBckButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     videoItem.seek(videoItem.position + 5000)
                 }
             }
@@ -124,7 +124,7 @@ Item {
                 KeyNavigation.right: fitVidOsdButton
                 KeyNavigation.left: osdSeekBar
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     console.log(osdControlsArea.pinned)
                     if(!osdControlsArea.pinned){
                         pinOsdButton.iconSource = "lock"
@@ -145,7 +145,7 @@ Item {
                 KeyNavigation.right: exitPlayerButton
                 KeyNavigation.left: pinOsdButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     if(videoItem.fillMode == VideoOutput.PreserveAspectFit){
                         videoItem.fillMode = VideoOutput.Stretch
                     } else {
@@ -161,7 +161,7 @@ Item {
                 iconSource: "window-close"
                 KeyNavigation.left: fitVidOsdButton
 
-                onClicked: {
+                onClicked: (mouse)=> {
                     window.close()
                 }
             }

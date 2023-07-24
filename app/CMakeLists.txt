@@ -9,8 +9,8 @@ target_link_libraries(plank-player
     Qt::Qml
     Qt::QuickControls2
     Qt::Multimedia
-    KF5::Kirigami2
-    KF5::I18n
+    KF6::Kirigami2
+    KF6::I18n
 )
 
 install(TARGETS plank-player ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
