@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-09 00:49+0000\n"
+"POT-Creation-Date: 2023-07-25 00:47+0000\n"
 "PO-Revision-Date: 2023-01-24 15:41+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "PlankPlayer"
 msgstr "PlankPlayer"
 
-#: app/qml/Menu.qml:93
+#: app/qml/Menu.qml:91
 #, kde-format
 msgid "Press 'esc' or the [←] Back button to close"
 msgstr ""
