@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
     QQuickStyle::setFallbackStyle(QStringLiteral("Fusion"));
     QGuiApplication app(argc, argv);
-    KLocalizedString::setApplicationDomain("plank-player");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("plank-player"));
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
