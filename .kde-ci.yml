@@ -15,7 +15,6 @@ Dependencies:
     'frameworks/kio': '@latest'
     'frameworks/kjobwidgets': '@latest'
     'frameworks/knotifications': '@latest'
-    'frameworks/kpackage': '@latest'
     'frameworks/kservice': '@latest'
     'frameworks/kwidgetsaddons': '@latest'
     'frameworks/kwindowsystem': '@latest'
