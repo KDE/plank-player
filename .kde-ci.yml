@@ -18,6 +18,6 @@ Dependencies:
     'frameworks/kservice': '@latest'
     'frameworks/kwidgetsaddons': '@latest'
     'frameworks/kwindowsystem': '@latest'
-    'frameworks/plasma-framework': '@latest'
     'frameworks/solid': '@latest'
+    'plasma/plasma-framework': '@same'
     'plasma/plasma-workspace': '@same'
