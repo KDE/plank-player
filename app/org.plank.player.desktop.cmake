@@ -89,4 +89,4 @@ Keywords[sv]=program;multimedia;spelare;
 Keywords[tr]=program;çoklu ortam;oynatıcı;
 Keywords[uk]=program;multimedia;Player;програма;мультимедіа;звук;відео;програвач;
 Keywords[x-test]=xxprogramxx;xxmultimediaxx;xxPlayerxx;
-Keywords[zh_CN]=program;multimedia;Player;程序,多媒体;播放器
+Keywords[zh_CN]=program;multimedia;Player;程序;多媒体;播放器;chengxu;duomeiti;bofangqi;
