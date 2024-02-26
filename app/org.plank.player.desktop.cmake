@@ -19,6 +19,7 @@ Name[nn]=Plank Player
 Name[pl]=Odtwarzacz Plank
 Name[pt]=Leitor Plank
 Name[pt_BR]=Plank Player
+Name[ro]=Lector Plank
 Name[ru]=Plank Player
 Name[sl]=Plank Player
 Name[sv]=Plank spelare
