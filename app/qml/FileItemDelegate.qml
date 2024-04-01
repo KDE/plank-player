@@ -195,7 +195,7 @@ ItemDelegate {
 
             Kirigami.Icon {
                 id: img
-                source: "kdenlive-show-videothumb"
+                source: "kdenlive-show-video"
                 anchors {
                     fill: parent
                     // To not round under
