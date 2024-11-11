@@ -82,6 +82,7 @@ Keywords[gl]=programa;multimedia;reprodutor;
 Keywords[he]=תוכנית;תוכנה;מדיה;מולטימדיה;נגן;נגינה;
 Keywords[hi]=कार्यक्रम;मल्टीमीडिया;प्लॅयर;
 Keywords[hu]=program;multimédia;Lejátszó;
+Keywords[id]=program;multimedia;Pemutar;
 Keywords[it]=programma;multimedia;lettore;
 Keywords[ka]=პროგრამა;მულტიმედია;დამკვრელი;
 Keywords[ko]=program;multimedia;Player;프로그램;멀티미디어;재생기;
