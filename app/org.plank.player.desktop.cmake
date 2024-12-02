@@ -27,6 +27,7 @@ Name[sv]=Plank spelare
 Name[tr]=Plank Oynatıcı
 Name[uk]=Програвач Plank
 Name[x-test]=xxPlank Playerxx
+Name[zh_CN]=Plank 媒体播放器
 Name[zh_TW]=Plank 播放器
 MimeType=@DesktopMimeType@
 Exec=@DesktopExec@
