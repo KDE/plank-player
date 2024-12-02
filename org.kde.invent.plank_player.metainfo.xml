@@ -29,6 +29,7 @@
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="uk">Програвач Plank</name>
   <name xml:lang="x-test">xxPlank Playerxx</name>
+  <name xml:lang="zh-CN">Plank 媒体播放器</name>
   <name xml:lang="zh-TW">Plank 播放器</name>
   <summary>Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
   <summary xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
@@ -57,6 +58,7 @@
   <summary xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</summary>
   <summary xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</summary>
+  <summary xml:lang="zh-CN">用于在 Plasma 大屏幕上播放本地多媒体内容的播放器，只需遥控器即可控制</summary>
   <summary xml:lang="zh-TW">在 Plasma 大螢幕上播放本機檔案用的多媒體播放器，僅需遙控器即可操控</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
@@ -96,6 +98,7 @@
     <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
     <p xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</p>
+    <p xml:lang="zh-CN">用于在 Plasma 大屏幕上播放本地多媒体内容的播放器，只需遥控器即可控制</p>
     <p xml:lang="zh-TW">在 Plasma 大螢幕上播放本機檔案用的多媒體播放器，僅需遙控器即可操控</p>
   </description>
   <project_group>KDE</project_group>
@@ -130,6 +133,7 @@
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
       <caption xml:lang="x-test">xxPlank Playerxx</caption>
+      <caption xml:lang="zh-CN">Plank 媒体播放器</caption>
       <caption xml:lang="zh-TW">Plank 播放器</caption>
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
     </screenshot>
