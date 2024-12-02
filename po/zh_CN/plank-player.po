@@ -20,9 +20,9 @@ msgstr ""
 #: app/qml/main.qml:15
 #, kde-format
 msgid "PlankPlayer"
-msgstr ""
+msgstr "Plank 媒体播放器"
 
 #: app/qml/Menu.qml:91
 #, kde-format
 msgid "Press 'esc' or the [←] Back button to close"
-msgstr ""
+msgstr "按 ESC 或 [←] 后退键以关闭"
