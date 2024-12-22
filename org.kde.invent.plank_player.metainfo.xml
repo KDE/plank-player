@@ -2,6 +2,7 @@
 <component type="desktop-application">
   <id>org.kde.invent.plank_player</id>
   <name>Plank Player</name>
+  <name xml:lang="ar">مشغل بلانك</name>
   <name xml:lang="ca">Reproductor Plank</name>
   <name xml:lang="ca-valencia">Reproductor Plank</name>
   <name xml:lang="cs">Plank Player</name>
@@ -34,6 +35,7 @@
   <name xml:lang="zh-CN">Plank 媒体播放器</name>
   <name xml:lang="zh-TW">Plank 播放器</name>
   <summary>Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
+  <summary xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</summary>
   <summary xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
   <summary xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
@@ -76,6 +78,7 @@
     <p>
       Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
     </p>
+    <p xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</p>
     <p xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</p>
     <p xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</p>
     <p xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</p>
@@ -112,6 +115,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Plank Player</caption>
+      <caption xml:lang="ar">مشغل بلانك</caption>
       <caption xml:lang="ca">Reproductor Plank</caption>
       <caption xml:lang="ca-valencia">Reproductor Plank</caption>
       <caption xml:lang="cs">Plank Player</caption>
