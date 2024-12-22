@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Plank Player
+Name[ar]=مشغل بلانك
 Name[ca]=Reproductor Plank
 Name[ca@valencia]=Reproductor Plank
 Name[cs]=Plank Player
@@ -37,6 +38,7 @@ Icon=plank-player
 Type=Application
 NoDisplay=@DesktopNoDisplay@
 GenericName=PlankPlayer
+GenericName[ar]=مشغل بلانك
 GenericName[ca]=PlankPlayer
 GenericName[ca@valencia]=PlankPlayer
 GenericName[cs]=PlankPlayer
@@ -73,6 +75,7 @@ GenericName[zh_CN]=PlankPlayer
 GenericName[zh_TW]=PlankPlayer
 Categories=AudioVideo;Player;
 Keywords=program;multimedia;Player;
+Keywords[ar]=برنامج;الوسائط المتعددة;مشغل;
 Keywords[ca]=programa;multimedia;reproductor;
 Keywords[ca@valencia]=programa;multimedia;reproductor;
 Keywords[cs]=program;multimédia;přehrávač;
