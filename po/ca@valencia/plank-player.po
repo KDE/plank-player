@@ -27,4 +27,4 @@ msgstr "PlankPlayer"
 #: app/qml/Menu.qml:91
 #, kde-format
 msgid "Press 'esc' or the [←] Back button to close"
-msgstr "Premeu «Esc» o el botó Arrere [←] per a tancar"
+msgstr "Premeu «Esc» o el botó «Arrere» [←] per a tancar"
