@@ -29,7 +29,6 @@
   <name xml:lang="sv">Plank spelare</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="uk">Програвач Plank</name>
-  <name xml:lang="x-test">xxPlank Playerxx</name>
   <summary>Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
   <summary xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</summary>
   <summary xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
@@ -57,7 +56,6 @@
   <summary xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</summary>
   <summary xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</summary>
-  <summary xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <supports>
@@ -96,7 +94,6 @@
     <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyük Ekran yerel çoklu ortam oynatıcısı</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
-    <p xml:lang="x-test">xxMultimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote controlxx</p>
   </description>
   <project_group>KDE</project_group>
   <launchable type="desktop-id">org.plank.player.desktop</launchable>
@@ -130,7 +127,6 @@
       <caption xml:lang="sv">Plank spelare</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
-      <caption xml:lang="x-test">xxPlank Playerxx</caption>
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
     </screenshot>
   </screenshots>
