@@ -39,6 +39,7 @@
   <summary xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</summary>
   <summary xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</summary>
+  <summary xml:lang="cs">Multimediální přehrávač pro přehrávání lokálních souborů na Plasma Bigscreen, který umožňuje ovládání pouze pomocí dálkového ovladače</summary>
   <summary xml:lang="de">Multimedia-Wiedergabe für lokale Dateien auf Plasma Bigscreen, wobei für die Navigation nur eine Fernbedienung benötigt wird</summary>
   <summary xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</summary>
   <summary xml:lang="eo">Plurmedia Ludilo por ludi lokajn dosierojn sur Plasma Bigscreen permesante navigadon per nur teleregilo</summary>
@@ -83,6 +84,7 @@
     <p xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</p>
     <p xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</p>
     <p xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el control remot</p>
+    <p xml:lang="cs">Multimediální přehrávač pro přehrávání lokálních souborů na Plasma Bigscreen, který umožňuje ovládání pouze pomocí dálkového ovladače</p>
     <p xml:lang="de">Multimedia-Wiedergabe für lokale Dateien auf Plasma Bigscreen, wobei für die Navigation nur eine Fernbedienung benötigt wird</p>
     <p xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</p>
     <p xml:lang="eo">Plurmedia Ludilo por ludi lokajn dosierojn sur Plasma Bigscreen permesante navigadon per nur teleregilo</p>
