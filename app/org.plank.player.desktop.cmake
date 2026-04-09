@@ -26,6 +26,7 @@ Name[pt_BR]=Plank Player
 Name[ro]=Lector Plank
 Name[ru]=Plank Player
 Name[sa]=तख्ता खिलाडी
+Name[sk]=Prehrávač Plank
 Name[sl]=Plank Player
 Name[sv]=Plank spelare
 Name[tr]=Plank Oynatıcı
