@@ -63,6 +63,7 @@
   <summary xml:lang="ro">Program de redare multimedia pentru fișiere locale pe Ecranul mare Plasma, ce permite navigarea cu telecomandă</summary>
   <summary xml:lang="ru">Проигрыватель мультимедиа для воспроизведения локальных файлов в Plasma Bigscreen, которым можно управлять просто с пульта ДУ</summary>
   <summary xml:lang="sa">प्लाज्मा बिगस्क्रीन् इत्यत्र स्थानीयसञ्चिकाः वादयितुं बहुमाध्यमप्लेयरः केवलं दूरनियन्त्रणेन सह नेविगेशनस्य अनुमतिं ददाति</summary>
+  <summary xml:lang="sk">Multimediálny prehrávač na prehrávanie lokálnych súborov na Plasma Bigscreen umožňujúci navigáciu len pomocou diaľkového ovládača</summary>
   <summary xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</summary>
   <summary xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</summary>
   <summary xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma BüyükEkran yerel çoklu ortam oynatıcısı</summary>
@@ -108,6 +109,7 @@
     <p xml:lang="ro">Program de redare multimedia pentru fișiere locale pe Ecranul mare Plasma, ce permite navigarea cu telecomandă</p>
     <p xml:lang="ru">Проигрыватель мультимедиа для воспроизведения локальных файлов в Plasma Bigscreen, которым можно управлять просто с пульта ДУ</p>
     <p xml:lang="sa">प्लाज्मा बिगस्क्रीन् इत्यत्र स्थानीयसञ्चिकाः वादयितुं बहुमाध्यमप्लेयरः केवलं दूरनियन्त्रणेन सह नेविगेशनस्य अनुमतिं ददाति</p>
+    <p xml:lang="sk">Multimediálny prehrávač na prehrávanie lokálnych súborov na Plasma Bigscreen umožňujúci navigáciu len pomocou diaľkového ovládača</p>
     <p xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</p>
     <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma BüyükEkran yerel çoklu ortam oynatıcısı</p>
