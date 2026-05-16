@@ -4,36 +4,30 @@
 
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
-import QtQuick.Templates 2.15 as QQCT
 import org.kde.kirigami 2.15 as Kirigami
+import org.kde.bigscreen as Bigscreen
 
-QQCT.Button {
-     id: osdBtn
-     Layout.fillWidth: true
-     Layout.preferredHeight: Kirigami.Units.gridUnit * 4
-     property alias iconSource: osdBtnIcon.source
+Bigscreen.Button {
+    id: osdBtn
+    Layout.fillWidth: true
+    Layout.preferredHeight: Kirigami.Units.gridUnit * 4
 
-     background: Rectangle {
-         id: osdBtnBackground
-         color: osdBtn.activeFocus ? Kirigami.Theme.highlightColor : Kirigami.Theme.backgroundColor
-         border.color: Kirigami.Theme.disabledTextColor
-     }
+    onFocusChanged: {
+       hideTimer.restart()
+    }
 
-     onFocusChanged: {
-        hideTimer.restart()
-     }
+    contentItem: Item {
+        Kirigami.Icon {
+            id: osdBtnIcon
+            source: osdBtn.icon.name
+            anchors.centerIn: parent
+            Layout.preferredWidth: Kirigami.Units.iconSizes.medium
+            Layout.preferredHeight: Kirigami.Units.iconSizes.medium
+            color: osdBtn.checked ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
+        }
+    }
 
-     contentItem: Item {
-         Kirigami.Icon {
-             id: osdBtnIcon
-             anchors.centerIn: parent
-             Layout.preferredWidth: Kirigami.Units.iconSizes.medium
-             Layout.preferredHeight: Kirigami.Units.iconSizes.medium
-             color: osdBtn.checked ? Kirigami.Theme.negativeTextColor : Kirigami.Theme.textColor
-         }
-     }
-
-     Keys.onReturnPressed: (event)=> {
-         clicked()
-     }
+    Keys.onReturnPressed: (event)=> {
+        clicked()
+    }
  }

@@ -59,7 +59,7 @@ Item {
                 id: menuButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "menu_new"
+                icon.name: "menu_new"
                 KeyNavigation.right: playPauseButton
 
                 onClicked: (mouse)=> {
@@ -71,7 +71,7 @@ Item {
                 id: playPauseButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: videoItem.playbackState === MediaPlayer.PlayingState ? "media-playback-pause"  : "media-playback-start"
+                icon.name: videoItem.playbackState === MediaPlayer.PlayingState ? "media-playback-pause"  : "media-playback-start"
                 KeyNavigation.right: mediaSkipBckButton
                 KeyNavigation.left: menuButton
 
@@ -84,7 +84,7 @@ Item {
                 id: mediaSkipBckButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "media-seek-backward"
+                icon.name: "media-seek-backward"
                 KeyNavigation.right: mediaSkipFwdButton
                 KeyNavigation.left: playPauseButton
 
@@ -97,7 +97,7 @@ Item {
                 id: mediaSkipFwdButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "media-seek-forward"
+                icon.name: "media-seek-forward"
                 KeyNavigation.right: osdSeekBar
                 KeyNavigation.left: mediaSkipBckButton
 
@@ -120,7 +120,7 @@ Item {
                 id: pinOsdButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "unlock"
+                icon.name: "unlock"
                 KeyNavigation.right: fitVidOsdButton
                 KeyNavigation.left: osdSeekBar
 
@@ -140,7 +140,7 @@ Item {
                 id: fitVidOsdButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "zoom-fit-best"
+                icon.name: "zoom-fit-best"
                 checkable: true
                 KeyNavigation.right: exitPlayerButton
                 KeyNavigation.left: pinOsdButton
@@ -158,7 +158,7 @@ Item {
                 id: exitPlayerButton
                 Layout.maximumWidth: Kirigami.Units.iconSizes.large
                 Layout.preferredHeight: Kirigami.Units.iconSizes.large
-                iconSource: "window-close"
+                icon.name: "window-close"
                 KeyNavigation.left: fitVidOsdButton
 
                 onClicked: (mouse)=> {
