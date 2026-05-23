@@ -19,6 +19,7 @@
   <name xml:lang="it">Plank Player</name>
   <name xml:lang="ka">PlankPlayer</name>
   <name xml:lang="ko">Plank 플레이어</name>
+  <name xml:lang="lt">Plank leistuvė</name>
   <name xml:lang="lv">Plank Player</name>
   <name xml:lang="nl">Plank-speler</name>
   <name xml:lang="nn">Plank Player</name>
@@ -54,6 +55,7 @@
   <summary xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</summary>
   <summary xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</summary>
   <summary xml:lang="ko">Plasma 큰 화면에서 로컬 파일을 재생할 수 있고 리모콘으로 탐색할 수 있는 멀티미디어 재생기</summary>
+  <summary xml:lang="lt">Multimedijos leistuvė, skirta atkurti vietinius failus televizoriuose, kuriuose veikia Plasma Bigscreen, ir leidžianti naršyti nuotoliniu valdymo pultu</summary>
   <summary xml:lang="lv">Lokālo multivides datņu atskaņotājs ar tālvadības pults atbalstu „Plasma“ lielajam ekrānam</summary>
   <summary xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</summary>
   <summary xml:lang="nn">Multimedie­spelar for avspeling av lokale filer på Plasma Bigscreen og navigering med fjernkontroll</summary>
@@ -100,6 +102,7 @@
     <p xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</p>
     <p xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</p>
     <p xml:lang="ko">Plasma 큰 화면에서 로컬 파일을 재생할 수 있고 리모콘으로 탐색할 수 있는 멀티미디어 재생기</p>
+    <p xml:lang="lt">Multimedijos leistuvė, skirta atkurti vietinius failus televizoriuose, kuriuose veikia Plasma Bigscreen, ir leidžianti naršyti nuotoliniu valdymo pultu</p>
     <p xml:lang="lv">Lokālo multivides datņu atskaņotājs ar tālvadības pults atbalstu „Plasma“ lielajam ekrānam</p>
     <p xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</p>
     <p xml:lang="nn">Multimedie­spelar for avspeling av lokale filer på Plasma Bigscreen og navigering med fjernkontroll</p>
@@ -139,6 +142,7 @@
       <caption xml:lang="it">Plank Player</caption>
       <caption xml:lang="ka">PlankPlayer</caption>
       <caption xml:lang="ko">Plank 플레이어</caption>
+      <caption xml:lang="lt">Plank leistuvė</caption>
       <caption xml:lang="lv">Plank Player</caption>
       <caption xml:lang="nl">Plank-speler</caption>
       <caption xml:lang="nn">Plank Player</caption>
