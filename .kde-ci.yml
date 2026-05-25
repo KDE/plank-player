@@ -21,3 +21,6 @@ Dependencies:
     'frameworks/solid': '@latest'
     'plasma/libplasma': '@same'
     'plasma/plasma-workspace': '@same'
+
+Options:
+ require-passing-tests-on: ['@all']
