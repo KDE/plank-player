@@ -2,6 +2,7 @@
 <component type="desktop-application">
   <id>org.kde.invent.plank_player</id>
   <name>Plank Player</name>
+  <url type="homepage">https://invent.kde.org/plasma/plank-player</url>
   <name xml:lang="ar">مشغل بلانك</name>
   <name xml:lang="ca">Reproductor Plank</name>
   <name xml:lang="ca-valencia">Reproductor Plank</name>
