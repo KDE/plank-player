@@ -43,12 +43,15 @@
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a Plasma Bigscreen</summary>
   <summary xml:lang="es">Reproductor multimedia para Plasma Bigscreen</summary>
   <summary xml:lang="he">נגן מולטימדיה לפלזמה למסכים גדולים</summary>
+  <summary xml:lang="it">Lettore multimediale per Plasma Bigscreen</summary>
   <summary xml:lang="ka">მულტიმედია ფაილების დამკვრელი Plasma Bigscreen-ისთვის</summary>
   <summary xml:lang="nl">Multimediaspeler voor Plasma Bigscreen</summary>
   <summary xml:lang="pt-BR">Reprodutor Multimídia para o Plasma Bigscreen</summary>
+  <summary xml:lang="sk">Multimediálny prehrávač pre Plasma Bigscreen</summary>
   <summary xml:lang="sl">Multimedijski predvajalnik za velike zaslone Plasma Bigscreen</summary>
   <summary xml:lang="tr">Plasma BüyükEkran için çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для Plasma Bigscreen</summary>
+  <summary xml:lang="zh-CN">Plasma 大屏幕的多媒体播放器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <supports>
