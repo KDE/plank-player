@@ -33,6 +33,7 @@
   <name xml:lang="sl">Plank Player</name>
   <name xml:lang="sv">Plank spelare</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
+  <name xml:lang="ug">Plank ياڭراتقۇچ</name>
   <name xml:lang="uk">Програвач Plank</name>
   <name xml:lang="zh-CN">Plank 媒体播放器</name>
   <name xml:lang="zh-TW">Plank 播放器</name>
@@ -97,6 +98,7 @@
     <p xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</p>
     <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma BüyükEkran yerel çoklu ortam oynatıcısı</p>
+    <p xml:lang="ug">Plasma چوڭ ئېكرانىدا يەرلىك كۆپ ۋاسىتە مەزمۇنىنى ياڭرىتىشقا ئىشلىتىلىدىغان ياڭراتقۇچ، پەقەت تىزگىنەك بولسىلا كۇپايە</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
     <p xml:lang="zh-CN">用于在 Plasma 大屏幕上播放本地多媒体内容的播放器，只需遥控器即可控制</p>
     <p xml:lang="zh-TW">在 Plasma 大螢幕上播放本機檔案用的多媒體播放器，僅需遙控器即可操控</p>
@@ -137,6 +139,7 @@
       <caption xml:lang="sl">Plank Player</caption>
       <caption xml:lang="sv">Plank spelare</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
+      <caption xml:lang="ug">Plank ياڭراتقۇچ</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
       <caption xml:lang="zh-CN">Plank 媒体播放器</caption>
       <caption xml:lang="zh-TW">Plank 播放器</caption>
