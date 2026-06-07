@@ -40,6 +40,7 @@
   <url type="homepage">https://invent.kde.org/plasma/plank-player</url>
   <developer_name translate="no">KDE</developer_name>
   <summary>Multimedia Player for Plasma Bigscreen</summary>
+  <summary xml:lang="ar">مشغل وسائط لبلازما الشاشة الكبيرة</summary>
   <summary xml:lang="ca">Reproductor multimèdia per al Plasma Bigscreen</summary>
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a Plasma Bigscreen</summary>
   <summary xml:lang="cs">Multimediální přehrávač pro Plasma Bigscreen</summary>
