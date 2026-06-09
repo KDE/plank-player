@@ -58,6 +58,7 @@
   <summary xml:lang="tr">Plasma BüyükEkran için çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для Plasma Bigscreen</summary>
   <summary xml:lang="zh-CN">Plasma 大屏幕的多媒体播放器</summary>
+  <summary xml:lang="zh-TW">《Plasma 大螢幕》用的多媒體播放器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <supports>
