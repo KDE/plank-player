@@ -70,8 +70,11 @@
     <control>pointing</control>
     <control>keyboard</control>
     <control>touch</control>
-    <control>gamepad</control>
   </supports>
+  <recommends>
+    <control>gamepad</control>
+    <control>tv-remote</control>
+  </recommends>
   <description>
     <p>
       Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
