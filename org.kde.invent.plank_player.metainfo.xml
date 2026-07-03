@@ -45,8 +45,10 @@
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a Plasma Bigscreen</summary>
   <summary xml:lang="cs">Multimediální přehrávač pro Plasma Bigscreen</summary>
   <summary xml:lang="es">Reproductor multimedia para Plasma Bigscreen</summary>
+  <summary xml:lang="eu">Plasma Bigscreen-erako multimedia-jotzailea</summary>
   <summary xml:lang="fr">Lecteur multimédia pour Plasma Bigscreen</summary>
   <summary xml:lang="he">נגן מולטימדיה לפלזמה למסכים גדולים</summary>
+  <summary xml:lang="ia">Reproductor multimedial perPlasma Biìgscreen</summary>
   <summary xml:lang="it">Lettore multimediale per Plasma Bigscreen</summary>
   <summary xml:lang="ka">მულტიმედია ფაილების დამკვრელი Plasma Bigscreen-ისთვის</summary>
   <summary xml:lang="ko">Plasma 큰 화면용 멀티미디어 재생기</summary>
@@ -82,7 +84,7 @@
     <p xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</p>
     <p xml:lang="eo">Plurmedia Ludilo por ludi lokajn dosierojn sur Plasma Bigscreen permesante navigadon per nur teleregilo</p>
     <p xml:lang="es">Reproductor multimedia para archivos locales en Plasma Bigscreen que permite navegación mediante un mando a distancia</p>
-    <p xml:lang="eu">Plasma Bigscreen-en fitxategi lokalak jotzeko multimedia jotzailea, urruneko aginte soil batekin nabigatzeko aukera eskaintzen duena</p>
+    <p xml:lang="eu">Plasma Bigscreen-en, tokiko fitxategiak jotzeko multimedia-jotzailea, urruneko aginte batekin soilik nabigatu daitekeena</p>
     <p xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</p>
     <p xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</p>
     <p xml:lang="gl">Reprodutor multimedia para reproducir ficheiros locais en Plasma Bigscreen permitindo navegar só cun mando a distancia</p>
