@@ -62,7 +62,7 @@
   <summary xml:lang="sk">Multimediálny prehrávač pre Plasma Bigscreen</summary>
   <summary xml:lang="sl">Multimedijski predvajalnik za velike zaslone Plasma Bigscreen</summary>
   <summary xml:lang="sv">Multimediaspelare för Plasma Storbildsskärm</summary>
-  <summary xml:lang="tr">Plasma BüyükEkran için çoklu ortam oynatıcısı</summary>
+  <summary xml:lang="tr">Plasma Büyükekran için çoklu ortam oynatıcısı</summary>
   <summary xml:lang="uk">Мультимедійний програвач для Plasma Bigscreen</summary>
   <summary xml:lang="zh-CN">Plasma 大屏幕的多媒体播放器</summary>
   <summary xml:lang="zh-TW">《Plasma 大螢幕》用的多媒體播放器</summary>
@@ -112,7 +112,7 @@
     <p xml:lang="sk">Multimediálny prehrávač na prehrávanie lokálnych súborov na Plasma Bigscreen umožňujúci navigáciu len pomocou diaľkového ovládača</p>
     <p xml:lang="sl">Predvajalnik večpredstavnosti za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen ki omogoča krmiljenje s samo daljinskim upravljavcem</p>
     <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
-    <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma BüyükEkran yerel çoklu ortam oynatıcısı</p>
+    <p xml:lang="tr">Uzaktan kumanda ile denetlenebilen, Plasma Büyükekran yerel çoklu ortam oynatıcısı</p>
     <p xml:lang="ug">Plasma چوڭ ئېكرانىدا يەرلىك كۆپ ۋاسىتە مەزمۇنىنى ياڭرىتىشقا ئىشلىتىلىدىغان ياڭراتقۇچ، پەقەت تىزگىنەك بولسىلا كۇپايە</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
     <p xml:lang="zh-CN">用于在 Plasma 大屏幕上播放本地多媒体内容的播放器，只需遥控器即可控制</p>
