@@ -1,21 +1,14 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.24)
 
 project(PlankPlayer LANGUAGES CXX)
 set(PROJECT_VERSION "5.27.80")
 set(PROJECT_VERSION_MAJOR 5)
 
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(QT_MIN_VERSION "6.4.0")
-set(KF6_MIN_VERSION "5.240.0")
-set(AUTORCC_OPTIONS "/app/qml.qrc")
+set(QT_MIN_VERSION "6.11.0")
+set(KF6_MIN_VERSION "6.14.0")
 
 find_package(ECM ${KF6_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
@@ -23,37 +16,35 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
-include(ECMInstallIcons)
+include(ECMQmlModule)
+include(ECMFindQmlModule)
 include(FeatureSummary)
 
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Core
+    Gui
     Qml
     Quick
     QuickControls2
     Multimedia
+    Concurrent
 )
 
-find_package(KF6 ${KF6_MIN_VERSION} REQUIRED
-    Kirigami2
+find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
+    Config
+    CoreAddons
     I18n
+    Kirigami
 )
 
-include(ECMFindQmlModule)
-ecm_find_qmlmodule(QtQuick 2.15)
-ecm_find_qmlmodule(QtQuick.Window 2.15)
-ecm_find_qmlmodule(QtQuick.Controls 2.15)
-ecm_find_qmlmodule(QtQuick.Layouts 1.15)
-ecm_find_qmlmodule(org.kde.kirigami 2.19)
-ecm_find_qmlmodule(Qt.labs.folderlistmodel 2.15)
-ecm_find_qmlmodule(QtQuick.Templates 2.15)
-ecm_find_qmlmodule(QtMultimedia 2.15)
-ecm_find_qmlmodule(Qt5Compat.GraphicalEffects 2.15)
+ecm_find_qmlmodule(org.kde.bigscreen.ui 1.0)
+ecm_find_qmlmodule(QtMultimedia)
+ecm_find_qmlmodule(Qt.labs.folderlistmodel)
 
 add_subdirectory(app)
-add_subdirectory(icons)
 
-install(FILES org.kde.invent.plank_player.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.plank-player.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.plank-player.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps/)
 
 ki18n_install(po)
 

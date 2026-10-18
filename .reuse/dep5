@@ -21,7 +21,7 @@ Files: app/CMakeLists.txt
 Copyright: 2022 Aditya Mehra
 License: BSD-2-Clause
 
-Files: app/org.plank.player.desktop.cmake
+Files: app/org.kde.plank-player.desktop.cmake
 Copyright: 2022 Aditya Mehra
 License: BSD-2-Clause
 
@@ -37,6 +37,6 @@ Files: Messages.sh
 Copyright: 2022 Aditya Mehra
 License: CC0-1.0
 
-Files: org.kde.invent.plank_player.metainfo.xml
+Files: org.kde.plank-player.metainfo.xml
 Copyright: 2022 Aditya Mehra
 License: CC0-1.0

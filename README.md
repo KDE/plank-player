@@ -1,11 +1,14 @@
-# Plank Player
+# Plank Player <img src="logo.png" width="40"/>
 
-Multimedia Player for playing local files on Plasma Bigscreen
+Media player for playing local videos and music on Plasma Bigscreen.
 
-#### Requires:
+- Project page: https://invent.kde.org/plasma/plank-player
+- File issues: https://invent.kde.org/plasma/plank-player/-/work-items
+- Development channel: https://matrix.to/#/#plasma-bigscreen:kde.org
 
-- Plasma Bigscreen (control library)
-- Gstreamer (All Plugins)
-- QtMultimedia Library, Plugins and QML Modules
-- QML Labs FolderList Modules
-- Kirigami2
+#### Dependencies
+
+- [bigscreen-ui](https://invent.kde.org/devinlin/bigscreen-ui) (`org.kde.bigscreen.ui`)
+- Qt 6 Multimedia
+- Qt Labs FolderListModel
+- Kirigami, KI18n and KCoreAddons

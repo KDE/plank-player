@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop-application">
-  <id>org.kde.invent.plank_player</id>
+  <id>org.kde.plank-player</id>
   <name>Plank Player</name>
   <name xml:lang="ar">مشغل بلانك</name>
   <name xml:lang="ca">Reproductor Plank</name>
@@ -121,7 +121,13 @@
     <p xml:lang="zh-TW">在 Plasma 大螢幕上播放本機檔案用的多媒體播放器，僅需遙控器即可操控</p>
   </description>
   <project_group>KDE</project_group>
-  <launchable type="desktop-id">org.plank.player.desktop</launchable>
+  <launchable type="desktop-id">org.kde.plank-player.desktop</launchable>
+  <provides>
+    <id>org.plank.player.desktop</id>
+  </provides>
+  <replaces>
+    <id>org.kde.invent.plank_player</id>
+  </replaces>
   <screenshots>
     <screenshot type="default">
       <caption>Plank Player</caption>

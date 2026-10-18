@@ -4,23 +4,12 @@
 Dependencies:
  - 'on': ['@all']
    'require':
-    'frameworks/kcmutils': '@latest'
-    'frameworks/kcodecs': '@latest'
-    'frameworks/kcompletion': '@latest'
-    'frameworks/kconfig': '@latest'
-    'frameworks/kconfigwidgets': '@latest'
-    'frameworks/kcoreaddons': '@latest'
-    'frameworks/kdeclarative': '@latest'
-    'frameworks/ki18n': '@latest'
-    'frameworks/kio': '@latest'
-    'frameworks/kjobwidgets': '@latest'
-    'frameworks/knotifications': '@latest'
-    'frameworks/kservice': '@latest'
-    'frameworks/kwidgetsaddons': '@latest'
-    'frameworks/kwindowsystem': '@latest'
-    'frameworks/solid': '@latest'
-    'plasma/libplasma': '@same'
-    'plasma/plasma-workspace': '@same'
+    'frameworks/extra-cmake-modules': '@latest-kf6'
+    'frameworks/kconfig': '@latest-kf6'
+    'frameworks/kcoreaddons': '@latest-kf6'
+    'frameworks/ki18n': '@latest-kf6'
+    'frameworks/kirigami': '@latest-kf6'
+    'libraries/bigscreen-ui': '@same'
 
 Options:
  require-passing-tests-on: ['@all']
