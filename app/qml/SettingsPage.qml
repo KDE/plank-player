@@ -18,6 +18,21 @@ BigscreenUI.ScrollablePage {
 
         BigscreenUI.Label {
             Layout.bottomMargin: Kirigami.Units.largeSpacing
+            text: i18nc("@title", "Appearance")
+            type: BigscreenUI.Label.Section
+        }
+
+        BigscreenUI.ColorSchemeDelegate {
+            id: colorSchemeDelegate
+
+            focus: true
+
+            KeyNavigation.down: saveHistoryDelegate
+        }
+
+        BigscreenUI.Label {
+            Layout.topMargin: Kirigami.Units.gridUnit
+            Layout.bottomMargin: Kirigami.Units.largeSpacing
             text: i18nc("@title", "History")
             type: BigscreenUI.Label.Section
         }
@@ -25,11 +40,11 @@ BigscreenUI.ScrollablePage {
         BigscreenUI.SwitchDelegate {
             id: saveHistoryDelegate
 
-            focus: true
             text: i18n("Save watch history")
             icon.name: "view-history"
             checked: History.saving
 
+            KeyNavigation.up: colorSchemeDelegate
             KeyNavigation.down: clearHistoryDelegate
 
             onToggled: History.saving = checked
