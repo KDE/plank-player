@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 00:53+0000\n"
+"POT-Creation-Date: 2026-10-22 00:52+0000\n"
 "PO-Revision-Date: 2024-02-18 16:03+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -370,30 +370,36 @@ msgstr ""
 #: app/qml/SettingsPage.qml:21
 #, kde-format
 msgctxt "@title"
+msgid "Appearance"
+msgstr ""
+
+#: app/qml/SettingsPage.qml:36
+#, kde-format
+msgctxt "@title"
 msgid "History"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:29
+#: app/qml/SettingsPage.qml:43
 #, kde-format
 msgid "Save watch history"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:42
+#: app/qml/SettingsPage.qml:57
 #, kde-format
 msgid "Clear watch history"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:52
+#: app/qml/SettingsPage.qml:67
 #, kde-format
 msgid "Clear watch history?"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:65
+#: app/qml/SettingsPage.qml:80
 #, kde-format
 msgid "Your recently watched media and playback positions will be cleared."
 msgstr ""
 
-#: app/qml/SettingsPage.qml:72
+#: app/qml/SettingsPage.qml:87
 #, kde-format
 msgid "Clear"
 msgstr ""

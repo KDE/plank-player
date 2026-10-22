@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the plank-player package.
 #
 # Olesya Gerasimenko <translation-team@basealt.ru>, 2022.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-21 00:53+0000\n"
-"PO-Revision-Date: 2022-11-02 14:35+0300\n"
-"Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
+"POT-Creation-Date: 2026-10-22 00:52+0000\n"
+"PO-Revision-Date: 2026-10-21 16:06+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Basealt Translation Team\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -21,383 +22,390 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Олеся Герасименко, Александр Яворский"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "translation-team@basealt.ru, kekcuha@gmail.com"
 
 #: app/main.cpp:30 app/qml/Main.qml:23 app/qml/Main.qml:96
-#, fuzzy, kde-format
-#| msgid "PlankPlayer"
+#, kde-format
 msgid "Plank Player"
-msgstr "PlankPlayer"
+msgstr "Plank Player"
 
 #: app/main.cpp:32
 #, kde-format
 msgid "Play videos and music on the big screen"
-msgstr ""
+msgstr "Воспроизведение видео и музыки на большом экране"
 
 #: app/main.cpp:34
 #, kde-format
 msgid "© 2021–2026 KDE Community"
-msgstr ""
+msgstr "© Сообщество KDE, 2021–2026"
 
 #: app/main.cpp:35
 #, kde-format
 msgid "Aditya Mehra"
-msgstr ""
+msgstr "Aditya Mehra"
 
 #: app/main.cpp:36
 #, kde-format
 msgid "Devin Lin"
-msgstr ""
+msgstr "Devin Lin"
 
 #: app/main.cpp:44
 #, kde-format
 msgid "Video or audio file to play"
-msgstr ""
+msgstr "Видео- или звуковой файл для воспроизведения"
 
 #: app/qml/components/Breadcrumbs.qml:85
 #, kde-format
 msgctxt "@action:button"
 msgid "%1, choose location"
-msgstr ""
+msgstr "%1, выбрать расположение"
 
 #: app/qml/components/FileCard.qml:25
 #, kde-format
 msgid "Folder"
-msgstr ""
+msgstr "Папка"
 
 #: app/qml/components/FileCard.qml:25
 #, kde-format
 msgctxt "@info file type and size"
 msgid "%1 · %2"
-msgstr ""
+msgstr "%1 · %2"
 
 #: app/qml/components/LocationsDialog.qml:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Go to Folder"
-msgstr ""
+msgstr "Переход к папке"
 
 #: app/qml/components/LocationsDialog.qml:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Locations"
-msgstr ""
+msgstr "Расположения"
 
 #: app/qml/components/LocationsDialog.qml:81
 #, kde-format
 msgid "Type a folder…"
-msgstr ""
+msgstr "Введите путь к папке…"
 
 #: app/qml/components/LocationsDialog.qml:109
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Such as ~/Videos"
-msgstr ""
+msgstr "Например, ~/Видео"
 
 #: app/qml/components/LocationsDialog.qml:134
 #, kde-format
 msgid "There's no folder at %1"
-msgstr ""
+msgstr "Папка %1 не существует"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:39
 #, kde-format
 msgctxt "@item track title and language"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:41
 #, kde-format
 msgctxt "@item numbered track"
 msgid "Track %1"
-msgstr ""
+msgstr "Дорожка %1"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:50
 #, kde-format
 msgctxt "@item no subtitles"
 msgid "Off"
-msgstr ""
+msgstr "Выключены"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:55
 #, kde-format
 msgctxt "@item playback speed"
 msgid "Normal"
-msgstr ""
+msgstr "Обычная"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:55
 #, kde-format
 msgctxt "@item playback speed"
 msgid "%1×"
-msgstr ""
+msgstr "%1×"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:60
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Fit to screen"
-msgstr ""
+msgstr "По размеру экрана"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:61
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Fill screen"
-msgstr ""
+msgstr "Заполнить экран"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:62
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Stretch"
-msgstr ""
+msgstr "Растянуть"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:112 app/qml/PlayerPage.qml:234
 #, kde-format
 msgid "Audio track"
-msgstr ""
+msgstr "Звуковая дорожка"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:113 app/qml/PlayerPage.qml:240
 #, kde-format
 msgid "Subtitles"
-msgstr ""
+msgstr "Субтитры"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:114 app/qml/PlayerPage.qml:246
 #, kde-format
 msgid "Playback speed"
-msgstr ""
+msgstr "Скорость воспроизведения"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:115 app/qml/PlayerPage.qml:251
 #, kde-format
 msgid "Picture"
-msgstr ""
+msgstr "Изображение"
 
 #: app/qml/HomePage.qml:19 app/qml/LibraryPage.qml:22
 #: app/qml/LibraryPage.qml:31
 #, kde-format
 msgid "Videos"
-msgstr ""
+msgstr "Видео"
 
 #: app/qml/HomePage.qml:20 app/qml/LibraryPage.qml:23
 #: app/qml/LibraryPage.qml:32
 #, kde-format
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 #: app/qml/HomePage.qml:21 app/qml/LibraryPage.qml:24
 #, kde-format
 msgid "Downloads"
-msgstr ""
+msgstr "Загрузки"
 
 #: app/qml/HomePage.qml:22 app/qml/LibraryPage.qml:25 app/qml/Main.qml:51
 #, kde-format
 msgid "Home"
-msgstr ""
+msgstr "Домашняя папка"
 
 #: app/qml/HomePage.qml:71 app/qml/HomePage.qml:103
 #, kde-format
 msgid "Continue watching"
-msgstr ""
+msgstr "Продолжить просмотр"
 
 #: app/qml/HomePage.qml:71
 #, kde-format
 msgid "Welcome"
-msgstr ""
+msgstr "Добро пожаловать"
 
 #: app/qml/HomePage.qml:72
 #, kde-format
 msgid "Play your media"
-msgstr ""
+msgstr "Воспроизводите свои медиафайлы"
 
 #: app/qml/HomePage.qml:77 app/qml/HomePage.qml:195
 #, kde-format
 msgid "Resume"
-msgstr ""
+msgstr "Продолжить"
 
 #: app/qml/HomePage.qml:77
 #, kde-format
 msgid "Browse videos"
-msgstr ""
+msgstr "Обзор видео"
 
 #: app/qml/HomePage.qml:88 app/qml/HomePage.qml:201
 #, kde-format
 msgid "Start over"
-msgstr ""
+msgstr "Начать заново"
 
 #: app/qml/HomePage.qml:88
 #, kde-format
 msgid "Browse music"
-msgstr ""
+msgstr "Обзор музыки"
 
 #: app/qml/HomePage.qml:132
 #, kde-format
 msgid "Recently played"
-msgstr ""
+msgstr "Недавно воспроизведённые"
 
 #: app/qml/HomePage.qml:161
 #, kde-format
 msgid "Folders"
-msgstr ""
+msgstr "Папки"
 
 #: app/qml/HomePage.qml:195
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Воспроизвести"
 
 #: app/qml/HomePage.qml:206
 #, kde-format
 msgid "Remove from history"
-msgstr ""
+msgstr "Удалить из журнала"
 
 #: app/qml/LibraryPage.qml:26
 #, kde-format
 msgid "Computer"
-msgstr ""
+msgstr "Компьютер"
 
 #: app/qml/LibraryPage.qml:30
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 #: app/qml/LibraryPage.qml:205
 #, kde-format
 msgid "Nothing to play here"
-msgstr ""
+msgstr "Здесь нечего воспроизводить"
 
 #: app/qml/LibraryPage.qml:206
 #, kde-format
 msgid "Videos, music and folders in %1 will appear here."
-msgstr ""
+msgstr "Здесь будут показаны видео, музыка и папки из %1."
 
 #: app/qml/LibraryPage.qml:208
 #, kde-format
 msgid "Go up"
-msgstr ""
+msgstr "Вверх"
 
 #: app/qml/Main.qml:57
 #, kde-format
 msgid "Library"
-msgstr ""
+msgstr "Медиатека"
 
 #: app/qml/Main.qml:62
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Параметры"
 
 #: app/qml/MediaFiles.qml:80
 #, kde-format
 msgctxt "@info bytes"
 msgid "B"
-msgstr ""
+msgstr "Б"
 
 #: app/qml/MediaFiles.qml:80
 #, kde-format
 msgctxt "@info kilobytes"
 msgid "KB"
-msgstr ""
+msgstr "КБ"
 
 #: app/qml/MediaFiles.qml:80
 #, kde-format
 msgctxt "@info megabytes"
 msgid "MB"
-msgstr ""
+msgstr "МБ"
 
 #: app/qml/MediaFiles.qml:80
 #, kde-format
 msgctxt "@info gigabytes"
 msgid "GB"
-msgstr ""
+msgstr "ГБ"
 
 #: app/qml/MediaFiles.qml:87
 #, kde-format
 msgctxt "@info file size, e.g. 1.2 GB"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: app/qml/MediaFiles.qml:92
 #, kde-format
 msgctxt "@info time left to watch"
 msgid "%1 min left"
 msgid_plural "%1 min left"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "осталась %1 мин"
+msgstr[1] "осталось %1 мин"
+msgstr[2] "осталось %1 мин"
+msgstr[3] "осталась %1 мин"
 
 #: app/qml/PlayerPage.qml:99
 #, kde-format
 msgid "Resuming from %1"
-msgstr ""
+msgstr "Продолжение с %1"
 
 #: app/qml/PlayerPage.qml:149
 #, kde-format
 msgctxt "@info song title and artist"
 msgid "%1 — %2"
-msgstr ""
+msgstr "%1 — %2"
 
 #: app/qml/PlayerPage.qml:176
 #, kde-format
 msgid "This file can't be played"
-msgstr ""
+msgstr "Этот файл невозможно воспроизвести"
 
 #: app/qml/PlayerPage.qml:179
 #, kde-format
 msgid "Play next"
-msgstr ""
+msgstr "Воспроизвести следующий"
 
 #: app/qml/PlayerPage.qml:179
 #, kde-format
 msgid "Go back"
-msgstr ""
+msgstr "Назад"
 
 #: app/qml/PlayerPage.qml:196
 #, kde-format
 msgctxt "@info position in the play queue"
 msgid "%1 of %2"
-msgstr ""
+msgstr "%1 из %2"
 
 #: app/qml/PlayerPage.qml:205
 #, kde-format
 msgctxt "@info video height, such as 1080p"
 msgid "%1p"
-msgstr ""
+msgstr "%1p"
 
 #: app/qml/PlayerPage.qml:209
 #, kde-format
 msgctxt "@info playback speed"
 msgid "%1×"
-msgstr ""
+msgstr "%1×"
 
 #: app/qml/SettingsPage.qml:21
 #, kde-format
 msgctxt "@title"
-msgid "History"
+msgid "Appearance"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:29
+#: app/qml/SettingsPage.qml:36
+#, kde-format
+msgctxt "@title"
+msgid "History"
+msgstr "Журнал"
+
+#: app/qml/SettingsPage.qml:43
 #, kde-format
 msgid "Save watch history"
-msgstr ""
+msgstr "Сохранять журнал просмотра"
 
-#: app/qml/SettingsPage.qml:42
+#: app/qml/SettingsPage.qml:57
 #, kde-format
 msgid "Clear watch history"
-msgstr ""
+msgstr "Очистить журнал просмотра"
 
-#: app/qml/SettingsPage.qml:52
+#: app/qml/SettingsPage.qml:67
 #, kde-format
 msgid "Clear watch history?"
-msgstr ""
+msgstr "Очистить журнал просмотра?"
 
-#: app/qml/SettingsPage.qml:65
+#: app/qml/SettingsPage.qml:80
 #, kde-format
 msgid "Your recently watched media and playback positions will be cleared."
 msgstr ""
+"Сведения о недавно просмотренных файлах и позициях воспроизведения будут "
+"удалены."
 
-#: app/qml/SettingsPage.qml:72
+#: app/qml/SettingsPage.qml:87
 #, kde-format
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #~ msgid "Press 'esc' or the [←] Back button to close"
 #~ msgstr "Нажмите «Esc» или [←] для закрытия"
