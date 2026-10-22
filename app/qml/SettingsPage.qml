@@ -16,19 +16,20 @@ BigscreenUI.ScrollablePage {
     ColumnLayout {
         spacing: Kirigami.Units.smallSpacing
 
+        BigscreenUI.KeyNavigationGroup.orientation: Qt.Vertical
+
         BigscreenUI.Label {
             Layout.bottomMargin: Kirigami.Units.largeSpacing
-            text: i18nc("@title", "Appearance")
+            text: i18nc("@title", "General")
             type: BigscreenUI.Label.Section
         }
 
         BigscreenUI.ColorSchemeDelegate {
             id: colorSchemeDelegate
-
             focus: true
-
-            KeyNavigation.down: saveHistoryDelegate
         }
+
+        BigscreenUI.AboutDelegate {}
 
         BigscreenUI.Label {
             Layout.topMargin: Kirigami.Units.gridUnit
@@ -43,9 +44,6 @@ BigscreenUI.ScrollablePage {
             text: i18n("Save watch history")
             icon.name: "view-history"
             checked: History.saving
-
-            KeyNavigation.up: colorSchemeDelegate
-            KeyNavigation.down: clearHistoryDelegate
 
             onToggled: History.saving = checked
         }
