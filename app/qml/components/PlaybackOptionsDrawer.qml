@@ -9,6 +9,7 @@ import QtMultimedia
 
 import org.kde.kirigami as Kirigami
 import org.kde.bigscreen.ui as BigscreenUI
+import org.kde.plank.player
 
 BigscreenUI.ContextDrawer {
     id: root
@@ -85,15 +86,19 @@ BigscreenUI.ContextDrawer {
         switch (section) {
         case PlaybackOptionsDrawer.AudioTrack:
             player.activeAudioTrack = value;
+            PlaybackSettings.save(player.source, { audioTrack: value });
             break;
         case PlaybackOptionsDrawer.Subtitles:
             player.activeSubtitleTrack = value;
+            PlaybackSettings.save(player.source, { subtitleTrack: value });
             break;
         case PlaybackOptionsDrawer.Speed:
             player.playbackRate = value;
+            PlaybackSettings.save(player.source, { playbackRate: value });
             break;
         case PlaybackOptionsDrawer.Picture:
             videoOutput.fillMode = value;
+            PlaybackSettings.save(player.source, { fillMode: value });
             break;
         }
     }
@@ -141,6 +146,8 @@ BigscreenUI.ContextDrawer {
 
             width: ListView.view.width
             text: modelData.text
+            textItem.wrapMode: Text.Wrap
+            textItem.maximumLineCount: root.section === PlaybackOptionsDrawer.AudioTrack || root.section === PlaybackOptionsDrawer.Subtitles ? 2 : 1
             focus: ListView.isCurrentItem
 
             trailing: Kirigami.Icon {
