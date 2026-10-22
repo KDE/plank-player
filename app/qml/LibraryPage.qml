@@ -8,10 +8,10 @@ pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Templates as T
 import QtCore
-import Qt.labs.folderlistmodel
 
 import org.kde.kirigami as Kirigami
 import org.kde.bigscreen.ui as BigscreenUI
+import org.kde.plank.player
 
 BigscreenUI.Page {
     id: root
@@ -100,7 +100,7 @@ BigscreenUI.Page {
     BigscreenUI.BackHandler.onActivated: breadcrumbs.forceActiveFocus()
 
     function __moveFocusOffGrid(): void {
-        if (Window.activeFocusItem === grid && folderModel.status === FolderListModel.Ready) {
+        if (Window.activeFocusItem === grid && !folderModel.loading) {
             focusFiles();
         }
     }
@@ -112,21 +112,14 @@ BigscreenUI.Page {
         }
     }
 
-    FolderListModel {
+    MediaFolderModel {
         id: folderModel
 
         folder: root.placeUrl
-        showDirs: true
-        showDirsFirst: true
-        showDotAndDotDot: false
-        showHidden: false
-        showOnlyReadable: true
-        caseSensitive: false
-        sortCaseSensitive: false
         nameFilters: root.filters[root.filterIndex].nameFilters
 
-        onStatusChanged: {
-            if (status !== FolderListModel.Ready) {
+        onLoadingChanged: {
+            if (loading) {
                 return;
             }
             if (root.focusFilesWhenLoaded) {
@@ -149,6 +142,15 @@ BigscreenUI.Page {
 
         anchors.fill: parent
         model: folderModel
+
+        onCurrentIndexChanged: {
+            if (root.__filesFocused) {
+                Qt.callLater(() => {
+                    grid.forceLayout();
+                    grid.scrollToCurrent();
+                });
+            }
+        }
 
         Keys.priority: Keys.AfterItem
         Keys.onUpPressed: event => {
@@ -192,7 +194,7 @@ BigscreenUI.Page {
     Item {
         anchors.fill: parent
         anchors.topMargin: grid.topMargin + (grid.headerItem?.height ?? 0)
-        visible: grid.count === 0 && folderModel.status === FolderListModel.Ready
+        visible: grid.count === 0 && !folderModel.loading
 
         BigscreenUI.PlaceholderMessage {
             id: emptyMessage

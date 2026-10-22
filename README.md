@@ -9,6 +9,6 @@ Media player for playing local videos and music on Plasma Bigscreen.
 #### Dependencies
 
 - [bigscreen-ui](https://invent.kde.org/devinlin/bigscreen-ui) (`org.kde.bigscreen.ui`)
-- Qt 6 Multimedia
-- Qt Labs FolderListModel
-- Kirigami, KI18n and KCoreAddons
+- Qt 6 (Quick Controls, Multimedia)
+- KIO
+- Kirigami, KI18n

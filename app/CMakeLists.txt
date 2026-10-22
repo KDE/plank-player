@@ -2,6 +2,8 @@ qt_add_executable(plank-player
     folders.cpp
     folders.h
     main.cpp
+    mediafoldermodel.cpp
+    mediafoldermodel.h
     playbackhistory.cpp
     playbackhistory.h
     thumbnailprovider.cpp
@@ -61,9 +63,9 @@ target_link_libraries(plank-player PRIVATE
     Qt::Multimedia
     Qt::Concurrent
     KF6::ConfigCore
-    KF6::CoreAddons
     KF6::I18n
     KF6::I18nQml
+    KF6::KIOCore
 )
 
 install(TARGETS plank-player ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

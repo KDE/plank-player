@@ -32,14 +32,13 @@ find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS
 
 find_package(KF6 ${KF6_MIN_VERSION} REQUIRED COMPONENTS
     Config
-    CoreAddons
     I18n
     Kirigami
+    KIO
 )
 
 ecm_find_qmlmodule(org.kde.bigscreen.ui 1.0)
 ecm_find_qmlmodule(QtMultimedia)
-ecm_find_qmlmodule(Qt.labs.folderlistmodel)
 
 add_subdirectory(app)
 
