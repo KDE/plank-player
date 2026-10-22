@@ -25,11 +25,16 @@ BigscreenUI.ContextDrawer {
     required property VideoOutput videoOutput
 
     property int section: PlaybackOptionsDrawer.AudioTrack
+    property var currentValue: undefined
 
     property Item returnFocusItem: null
 
     function openSection(section: int): void {
+        if (!visible) {
+            returnFocusItem = videoOutput.Window.activeFocusItem;
+        }
         root.section = section;
+        currentValue = selectedValue();
         open();
     }
 
@@ -66,7 +71,10 @@ BigscreenUI.ContextDrawer {
         return [];
     }
 
-    readonly property var currentValue: {
+    function selectedValue(): var {
+        if (player.mediaStatus === MediaPlayer.NoMedia || player.mediaStatus === MediaPlayer.LoadingMedia) {
+            return undefined;
+        }
         switch (section) {
         case PlaybackOptionsDrawer.AudioTrack:
             return player.activeAudioTrack;
@@ -101,13 +109,13 @@ BigscreenUI.ContextDrawer {
             PlaybackSettings.save(player.source, { fillMode: value });
             break;
         }
+        currentValue = value;
     }
 
     onAboutToShow: {
-        returnFocusItem = videoOutput.Window.activeFocusItem;
         optionList.currentIndex = Math.max(0, currentOptionIndex);
     }
-    onAboutToHide: returnFocusItem?.forceActiveFocus()
+    onClosed: returnFocusItem?.forceActiveFocus()
 
     openFocusItem: optionList
 
@@ -141,6 +149,8 @@ BigscreenUI.ContextDrawer {
         model: root.options
 
         delegate: BigscreenUI.ButtonDelegate {
+            id: optionDelegate
+
             required property var modelData
             required property int index
 
@@ -148,13 +158,14 @@ BigscreenUI.ContextDrawer {
             text: modelData.text
             textItem.wrapMode: Text.Wrap
             textItem.maximumLineCount: root.section === PlaybackOptionsDrawer.AudioTrack || root.section === PlaybackOptionsDrawer.Subtitles ? 2 : 1
+            checked: index === root.currentOptionIndex
             focus: ListView.isCurrentItem
 
             trailing: Kirigami.Icon {
                 implicitWidth: Kirigami.Units.iconSizes.medium
                 implicitHeight: Kirigami.Units.iconSizes.medium
                 source: "checkmark"
-                visible: index === root.currentOptionIndex
+                visible: optionDelegate.checked
             }
 
             onClicked: {

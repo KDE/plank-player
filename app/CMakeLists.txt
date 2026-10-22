@@ -6,6 +6,8 @@ qt_add_executable(plank-player
     mediafoldermodel.h
     playbackhistory.cpp
     playbackhistory.h
+    playbacksettings.cpp
+    playbacksettings.h
     thumbnailprovider.cpp
     thumbnailprovider.h
 )

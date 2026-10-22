@@ -11,6 +11,7 @@ import QtMultimedia
 
 import org.kde.kirigami as Kirigami
 import org.kde.bigscreen.ui as BigscreenUI
+import org.kde.plank.player
 
 BigscreenUI.Page {
     id: root
@@ -92,6 +93,18 @@ BigscreenUI.Page {
         onMediaStatusChanged: {
             if (mediaStatus === MediaPlayer.LoadedMedia && !root.__resumed) {
                 root.__resumed = true;
+
+                // Load saved settings for media
+                const settings = PlaybackSettings.load(root.source);
+                playbackRate = settings.playbackRate;
+                videoOutput.fillMode = settings.fillMode;
+                if (settings.audioTrack >= 0 && settings.audioTrack < audioTracks.length) {
+                    activeAudioTrack = settings.audioTrack;
+                }
+                if (settings.subtitleTrack >= -1 && settings.subtitleTrack < subtitleTracks.length) {
+                    activeSubtitleTrack = settings.subtitleTrack;
+                }
+
                 const position = root.startOver ? 0 : History.resumePosition(root.source);
                 // Not worth resuming right at the start
                 if (position > 10000 && seekable) {
