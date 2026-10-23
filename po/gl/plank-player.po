@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-22 00:52+0000\n"
+"POT-Creation-Date: 2026-10-23 00:51+0000\n"
 "PO-Revision-Date: 2023-04-28 20:10+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -103,70 +103,70 @@ msgstr ""
 msgid "There's no folder at %1"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:39
+#: app/qml/components/PlaybackOptionsDrawer.qml:45
 #, kde-format
 msgctxt "@item track title and language"
 msgid "%1 (%2)"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:41
+#: app/qml/components/PlaybackOptionsDrawer.qml:47
 #, kde-format
 msgctxt "@item numbered track"
 msgid "Track %1"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:50
+#: app/qml/components/PlaybackOptionsDrawer.qml:56
 #, kde-format
 msgctxt "@item no subtitles"
 msgid "Off"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:55
+#: app/qml/components/PlaybackOptionsDrawer.qml:61
 #, kde-format
 msgctxt "@item playback speed"
 msgid "Normal"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:55
+#: app/qml/components/PlaybackOptionsDrawer.qml:61
 #, kde-format
 msgctxt "@item playback speed"
 msgid "%1×"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:60
+#: app/qml/components/PlaybackOptionsDrawer.qml:66
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Fit to screen"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:61
+#: app/qml/components/PlaybackOptionsDrawer.qml:67
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Fill screen"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:62
+#: app/qml/components/PlaybackOptionsDrawer.qml:68
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Stretch"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:112 app/qml/PlayerPage.qml:234
+#: app/qml/components/PlaybackOptionsDrawer.qml:125 app/qml/PlayerPage.qml:247
 #, kde-format
 msgid "Audio track"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:113 app/qml/PlayerPage.qml:240
+#: app/qml/components/PlaybackOptionsDrawer.qml:126 app/qml/PlayerPage.qml:253
 #, kde-format
 msgid "Subtitles"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:114 app/qml/PlayerPage.qml:246
+#: app/qml/components/PlaybackOptionsDrawer.qml:127 app/qml/PlayerPage.qml:259
 #, kde-format
 msgid "Playback speed"
 msgstr ""
 
-#: app/qml/components/PlaybackOptionsDrawer.qml:115 app/qml/PlayerPage.qml:251
+#: app/qml/components/PlaybackOptionsDrawer.qml:128 app/qml/PlayerPage.qml:264
 #, kde-format
 msgid "Picture"
 msgstr ""
@@ -258,17 +258,17 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: app/qml/LibraryPage.qml:205
+#: app/qml/LibraryPage.qml:207
 #, kde-format
 msgid "Nothing to play here"
 msgstr ""
 
-#: app/qml/LibraryPage.qml:206
+#: app/qml/LibraryPage.qml:208
 #, kde-format
 msgid "Videos, music and folders in %1 will appear here."
 msgstr ""
 
-#: app/qml/LibraryPage.qml:208
+#: app/qml/LibraryPage.qml:210
 #, kde-format
 msgid "Go up"
 msgstr ""
@@ -321,83 +321,83 @@ msgid_plural "%1 min left"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/qml/PlayerPage.qml:99
+#: app/qml/PlayerPage.qml:112
 #, kde-format
 msgid "Resuming from %1"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:149
+#: app/qml/PlayerPage.qml:162
 #, kde-format
 msgctxt "@info song title and artist"
 msgid "%1 — %2"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:176
+#: app/qml/PlayerPage.qml:189
 #, kde-format
 msgid "This file can't be played"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:179
+#: app/qml/PlayerPage.qml:192
 #, kde-format
 msgid "Play next"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:179
+#: app/qml/PlayerPage.qml:192
 #, kde-format
 msgid "Go back"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:196
+#: app/qml/PlayerPage.qml:209
 #, kde-format
 msgctxt "@info position in the play queue"
 msgid "%1 of %2"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:205
+#: app/qml/PlayerPage.qml:218
 #, kde-format
 msgctxt "@info video height, such as 1080p"
 msgid "%1p"
 msgstr ""
 
-#: app/qml/PlayerPage.qml:209
+#: app/qml/PlayerPage.qml:222
 #, kde-format
 msgctxt "@info playback speed"
 msgid "%1×"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:21
+#: app/qml/SettingsPage.qml:23
 #, kde-format
 msgctxt "@title"
-msgid "Appearance"
+msgid "General"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:36
+#: app/qml/SettingsPage.qml:37
 #, kde-format
 msgctxt "@title"
 msgid "History"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:43
+#: app/qml/SettingsPage.qml:44
 #, kde-format
 msgid "Save watch history"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:57
+#: app/qml/SettingsPage.qml:55
 #, kde-format
 msgid "Clear watch history"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:67
+#: app/qml/SettingsPage.qml:65
 #, kde-format
 msgid "Clear watch history?"
 msgstr ""
 
-#: app/qml/SettingsPage.qml:80
+#: app/qml/SettingsPage.qml:78
 #, kde-format
 msgid "Your recently watched media and playback positions will be cleared."
 msgstr ""
 
-#: app/qml/SettingsPage.qml:87
+#: app/qml/SettingsPage.qml:85
 #, kde-format
 msgid "Clear"
 msgstr ""
