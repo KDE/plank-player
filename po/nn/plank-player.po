@@ -403,6 +403,3 @@ msgstr ""
 #, kde-format
 msgid "Clear"
 msgstr ""
-
-#~ msgid "Press 'esc' or the [←] Back button to close"
-#~ msgstr "Trykk «Escape» eller tilbakeknappen [←] for å lukka"

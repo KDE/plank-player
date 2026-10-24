@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-23 00:51+0000\n"
-"PO-Revision-Date: 2026-10-22 17:16+0100\n"
+"PO-Revision-Date: 2026-10-24 00:30+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -370,7 +370,7 @@ msgstr "×%1"
 #, kde-format
 msgctxt "@title"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: app/qml/SettingsPage.qml:37
 #, kde-format
@@ -404,7 +404,3 @@ msgstr ""
 #, kde-format
 msgid "Clear"
 msgstr "Borrar"
-
-#~ msgctxt "@title"
-#~ msgid "Appearance"
-#~ msgstr "Aspecto visual"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-23 00:51+0000\n"
-"PO-Revision-Date: 2026-10-22 09:42-0300\n"
+"PO-Revision-Date: 2026-10-23 06:45-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -369,7 +369,7 @@ msgstr "%1×"
 #, kde-format
 msgctxt "@title"
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: app/qml/SettingsPage.qml:37
 #, kde-format
