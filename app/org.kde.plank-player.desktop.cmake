@@ -41,7 +41,6 @@ Icon=org.kde.plank-player
 Type=Application
 NoDisplay=@DesktopNoDisplay@
 GenericName=Multimedia Player for Plasma Bigscreen
-GenericName[zh_TW]=PlankPlayer
 Categories=AudioVideo;Player;
 Keywords=program;multimedia;Player;
 Keywords[ar]=برنامج;الوسائط المتعددة;مشغل;
