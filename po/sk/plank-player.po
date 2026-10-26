@@ -367,7 +367,7 @@ msgstr "%1×"
 #, kde-format
 msgctxt "@title"
 msgid "General"
-msgstr ""
+msgstr "Všeobecné"
 
 #: app/qml/SettingsPage.qml:37
 #, kde-format
