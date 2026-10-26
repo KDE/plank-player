@@ -4,9 +4,16 @@
   <name>Plank Player</name>
   <name xml:lang="ca">Reproductor Plank</name>
   <name xml:lang="ca-valencia">Reproductor Plank</name>
+  <name xml:lang="en-GB">Plank Player</name>
+  <name xml:lang="eo">Plank Player</name>
   <name xml:lang="es">Plank Player</name>
+  <name xml:lang="eu">Plank Jotzailea</name>
+  <name xml:lang="gl">Reprodutor Plank</name>
+  <name xml:lang="he">נגן Plank</name>
   <name xml:lang="nl">Plank-speler</name>
+  <name xml:lang="pt">Leitor Plank</name>
   <name xml:lang="pt-BR">Plank Player</name>
+  <name xml:lang="sa">तख्ता खिलाडी</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="uk">Програвач Plank</name>
   <url type="homepage">https://invent.kde.org/plasma/plank-player</url>
@@ -15,6 +22,8 @@
   <summary xml:lang="ca">Reproductor multimèdia per al Plasma Bigscreen</summary>
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a Plasma Bigscreen</summary>
   <summary xml:lang="es">Reproductor multimedia para Plasma Bigscreen</summary>
+  <summary xml:lang="eu">Plasma Bigscreen-erako multimedia-jotzailea</summary>
+  <summary xml:lang="he">נגן מולטימדיה לפלזמה למסכים גדולים</summary>
   <summary xml:lang="nl">Multimediaspeler voor Plasma Bigscreen</summary>
   <summary xml:lang="pt-BR">Reprodutor Multimídia para o Plasma Bigscreen</summary>
   <summary xml:lang="tr">Plasma Büyükekran için ortam oynatıcısı</summary>
@@ -36,9 +45,16 @@
     </p>
     <p xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el comandament a distància</p>
     <p xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el comandament a distància</p>
+    <p xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</p>
+    <p xml:lang="eo">Plurmedia Ludilo por ludi lokajn dosierojn sur Plasma Bigscreen permesante navigadon per nur teleregilo</p>
     <p xml:lang="es">Reproductor multimedia para reproducir archivos locales en Plasma Bigscreen que permite navegación con mando a distancia</p>
+    <p xml:lang="eu">Plasma Bigscreen-en, tokiko fitxategiak jotzeko multimedia-jotzailea, urruneko aginte batekin soilik nabigatu daitekeena</p>
+    <p xml:lang="gl">Reprodutor multimedia para reproducir ficheiros locais en Plasma Bigscreen permitindo navegar só cun mando a distancia</p>
+    <p xml:lang="he">נגן מולטימדיה לנגינת קבצים מקומיים ב„מסך גדול” מבית פלזמה שמאפשר ניווט באמצעות שלט רחוק בלבד</p>
     <p xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</p>
+    <p xml:lang="pt">Leitor multimédia para reproduzir ficheiros locais no Plasma para ecrãs grandes, permitindo a navegação com um comando à distância</p>
     <p xml:lang="pt-BR">Reprodutor multimídia para arquivos locais no Plasma Bigscreen permitindo a navegação apenas com o controle remoto</p>
+    <p xml:lang="sa">प्लाज्मा बिगस्क्रीन् इत्यत्र स्थानीयसञ्चिकाः वादयितुं बहुमाध्यमप्लेयरः केवलं दूरनियन्त्रणेन सह नेविगेशनस्य अनुमतिं ददाति</p>
     <p xml:lang="tr">Plasma Büyükekran üzerinde, yerel dosyalarınızı oynatmak için yalnızca bir uzaktan kumanda ile dolaşıma izin veren bir ortam oynatıcısı</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
   </description>
@@ -55,9 +71,16 @@
       <caption>Plank Player</caption>
       <caption xml:lang="ca">Reproductor Plank</caption>
       <caption xml:lang="ca-valencia">Reproductor Plank</caption>
+      <caption xml:lang="en-GB">Plank Player</caption>
+      <caption xml:lang="eo">Plank Player</caption>
       <caption xml:lang="es">Plank Player</caption>
+      <caption xml:lang="eu">Plank Jotzailea</caption>
+      <caption xml:lang="gl">Reprodutor Plank</caption>
+      <caption xml:lang="he">נגן Plank</caption>
       <caption xml:lang="nl">Plank-speler</caption>
+      <caption xml:lang="pt">Leitor Plank</caption>
       <caption xml:lang="pt-BR">Plank Player</caption>
+      <caption xml:lang="sa">तख्ता खिलाडी</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
