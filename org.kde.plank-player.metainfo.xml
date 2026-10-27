@@ -2,32 +2,72 @@
 <component type="desktop-application">
   <id>org.kde.plank-player</id>
   <name>Plank Player</name>
+  <name xml:lang="ar">مشغل بلانك</name>
   <name xml:lang="ca">Reproductor Plank</name>
   <name xml:lang="ca-valencia">Reproductor Plank</name>
+  <name xml:lang="cs">Plank Player</name>
+  <name xml:lang="de">Plank Player</name>
   <name xml:lang="en-GB">Plank Player</name>
   <name xml:lang="eo">Plank Player</name>
   <name xml:lang="es">Plank Player</name>
   <name xml:lang="eu">Plank Jotzailea</name>
+  <name xml:lang="fi">Plank Player</name>
+  <name xml:lang="fr">Lecteur Plank</name>
   <name xml:lang="gl">Reprodutor Plank</name>
   <name xml:lang="he">נגן Plank</name>
+  <name xml:lang="ia">Plank Player</name>
+  <name xml:lang="it">Plank Player</name>
+  <name xml:lang="ka">PlankPlayer</name>
+  <name xml:lang="ko">Plank 플레이어</name>
+  <name xml:lang="lt">Plank leistuvė</name>
+  <name xml:lang="lv">Plank Player</name>
   <name xml:lang="nl">Plank-speler</name>
+  <name xml:lang="nn">Plank Player</name>
+  <name xml:lang="pl">Odtwarzacz Plank</name>
   <name xml:lang="pt">Leitor Plank</name>
   <name xml:lang="pt-BR">Plank Player</name>
+  <name xml:lang="ro">Lector Plank</name>
+  <name xml:lang="ru">Plank Player</name>
   <name xml:lang="sa">तख्ता खिलाडी</name>
+  <name xml:lang="sk">Prehrávač Plank</name>
+  <name xml:lang="sl">Plank Player</name>
+  <name xml:lang="sv">Plank spelare</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
+  <name xml:lang="ug">Plank ياڭراتقۇچ</name>
   <name xml:lang="uk">Програвач Plank</name>
+  <name xml:lang="zh-CN">Plank 媒体播放器</name>
+  <name xml:lang="zh-TW">Plank 播放器</name>
   <url type="homepage">https://invent.kde.org/plasma/plank-player</url>
   <developer_name translate="no">KDE</developer_name>
   <summary>Multimedia Player for Plasma Bigscreen</summary>
+  <summary xml:lang="ar">مشغل وسائط لبلازما الشاشة الكبيرة</summary>
   <summary xml:lang="ca">Reproductor multimèdia per al Plasma Bigscreen</summary>
   <summary xml:lang="ca-valencia">Reproductor multimèdia per a Plasma Bigscreen</summary>
+  <summary xml:lang="cs">Multimediální přehrávač pro Plasma Bigscreen</summary>
+  <summary xml:lang="de">Multimedia-Wiedergabe für Plasma Bigscreen</summary>
   <summary xml:lang="es">Reproductor multimedia para Plasma Bigscreen</summary>
   <summary xml:lang="eu">Plasma Bigscreen-erako multimedia-jotzailea</summary>
+  <summary xml:lang="fi">Multimediasoitin Plasma Bigscreeniin</summary>
+  <summary xml:lang="fr">Lecteur multimédia pour Plasma Bigscreen</summary>
   <summary xml:lang="he">נגן מולטימדיה לפלזמה למסכים גדולים</summary>
+  <summary xml:lang="ia">Reproductor multimedial perPlasma Biìgscreen</summary>
+  <summary xml:lang="it">Lettore multimediale per Plasma Bigscreen</summary>
+  <summary xml:lang="ka">მულტიმედიის დამკვრელი Plasma Bigscreen-ისთვის</summary>
+  <summary xml:lang="ko">Plasma 큰 화면용 멀티미디어 재생기</summary>
+  <summary xml:lang="lt">Multimedijos leistuvė, skirta Plasma Bigscreen</summary>
   <summary xml:lang="nl">Multimediaspeler voor Plasma Bigscreen</summary>
+  <summary xml:lang="nn">Multimedie­spelar for Plasma Bigscreen</summary>
   <summary xml:lang="pt-BR">Reprodutor Multimídia para o Plasma Bigscreen</summary>
+  <summary xml:lang="ro">Lector multimedia pentru Plasma Bigscreen</summary>
+  <summary xml:lang="ru">Проигрыватель мультимедиа для Plasma Bigscreen</summary>
+  <summary xml:lang="sk">Multimediálny prehrávač pre Plasma Bigscreen</summary>
+  <summary xml:lang="sl">Večpredstavnostni predvajalnik za Plasma Bigscreen</summary>
+  <summary xml:lang="sv">Multimediaspelare för Plasma Storbildsskärm</summary>
   <summary xml:lang="tr">Plasma Büyükekran için ortam oynatıcısı</summary>
+  <summary xml:lang="ug">Plasma چوڭ ئېكراننىڭ كۆپ ۋاسىتە ياڭراتقۇچى</summary>
   <summary xml:lang="uk">Мультимедійний програвач для Plasma Bigscreen</summary>
+  <summary xml:lang="zh-CN">Plasma 大屏幕的多媒体播放器</summary>
+  <summary xml:lang="zh-TW">《Plasma 大螢幕》用的多媒體播放器</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-or-later</project_license>
   <supports>
@@ -43,20 +83,42 @@
     <p>
       Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control
     </p>
+    <p xml:lang="ar">مشغل الوسائط المتعددة لتشغيل الملفات المحلية على شاشة البلازما الكبيرة مما يسمح بالتنقل باستخدام جهاز التحكم عن بعد فقط</p>
     <p xml:lang="ca">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el comandament a distància</p>
     <p xml:lang="ca-valencia">Reproductor multimèdia per a reproduir fitxers locals en la Plasma Bigscreen que permet la navegació amb el comandament a distància</p>
+    <p xml:lang="cs">Multimediální přehrávač pro přehrávání lokálních souborů na Plasma Bigscreen, který umožňuje ovládání pouze pomocí dálkového ovladače</p>
+    <p xml:lang="de">Multimedia-Wiedergabe für lokale Dateien auf Plasma Bigscreen, wobei für die Navigation nur eine Fernbedienung benötigt wird</p>
     <p xml:lang="en-GB">Multimedia Player for playing local files on Plasma Bigscreen allowing navigation with just a remote control</p>
     <p xml:lang="eo">Plurmedia Ludilo por ludi lokajn dosierojn sur Plasma Bigscreen permesante navigadon per nur teleregilo</p>
     <p xml:lang="es">Reproductor multimedia para reproducir archivos locales en Plasma Bigscreen que permite navegación con mando a distancia</p>
     <p xml:lang="eu">Plasma Bigscreen-en, tokiko fitxategiak jotzeko multimedia-jotzailea, urruneko aginte batekin soilik nabigatu daitekeena</p>
+    <p xml:lang="fi">Multimediasoitin paikallisten tiedostojen toistamiseksi Plasma Bigscreenillä ja vain kaukosäädinnavigoinnilla</p>
+    <p xml:lang="fr">Lecteur multimédia pour la lecture de fichiers locaux sur un grand écran avec Plasma, permettant la navigation avec une simple télécommande.</p>
     <p xml:lang="gl">Reprodutor multimedia para reproducir ficheiros locais en Plasma Bigscreen permitindo navegar só cun mando a distancia</p>
     <p xml:lang="he">נגן מולטימדיה לנגינת קבצים מקומיים ב„מסך גדול” מבית פלזמה שמאפשר ניווט באמצעות שלט רחוק בלבד</p>
+    <p xml:lang="ia">Reproductor multimedial per reproducer files local sur Plasma Bigscreen permettente  navigation con colmente un controlo remote </p>
+    <p xml:lang="id">Pemutar Multimedia untuk memutar berkas file lokal di Plasma Bigscreen memungkinkan navigasi hanya dengan remot kontrol</p>
+    <p xml:lang="it">Lettore multimediale per riprodurre file locali su Plasma Bigscreen che consente la navigazione con il solo telecomando</p>
+    <p xml:lang="ka">ლოკალური ფაილებიდან მულტიმედიის დამკვრელი Plasma BigScreen-სთვის, დისტანციური მართვის საშუალებით</p>
+    <p xml:lang="ko">Plasma 큰 화면에서 로컬 파일을 재생할 수 있고 리모콘으로 탐색할 수 있는 멀티미디어 재생기</p>
+    <p xml:lang="lt">Multimedijos leistuvė, skirta atkurti vietinius failus televizoriuose, kuriuose veikia Plasma Bigscreen, ir leidžianti naršyti nuotoliniu valdymo pultu</p>
+    <p xml:lang="lv">Lokālo multivides datņu atskaņotājs ar tālvadības pults atbalstu „Plasma“ lielajam ekrānam</p>
     <p xml:lang="nl">Multimedia-speler voor afspelen van lokale bestanden op Plasma Bigscreen die navigatie biedt met alleen een afstandsbediening</p>
+    <p xml:lang="nn">Multimedie­spelar for avspeling av lokale filer på Plasma Bigscreen og navigering med fjernkontroll</p>
+    <p xml:lang="pl">Odtwarzacz multimedialny do odgrywania miejscowych plików na Dużym Ekranie Plazmy, który umożliwia poruszanie się przy użyciu wyłącznie pilota</p>
     <p xml:lang="pt">Leitor multimédia para reproduzir ficheiros locais no Plasma para ecrãs grandes, permitindo a navegação com um comando à distância</p>
     <p xml:lang="pt-BR">Reprodutor multimídia para arquivos locais no Plasma Bigscreen permitindo a navegação apenas com o controle remoto</p>
+    <p xml:lang="ro">Program de redare multimedia pentru fișiere locale pe Ecranul mare Plasma, ce permite navigarea cu telecomandă</p>
+    <p xml:lang="ru">Проигрыватель мультимедиа для воспроизведения локальных файлов в Plasma Bigscreen, которым можно управлять просто с пульта ДУ</p>
     <p xml:lang="sa">प्लाज्मा बिगस्क्रीन् इत्यत्र स्थानीयसञ्चिकाः वादयितुं बहुमाध्यमप्लेयरः केवलं दूरनियन्त्रणेन सह नेविगेशनस्य अनुमतिं ददाति</p>
+    <p xml:lang="sk">Multimediálny prehrávač na prehrávanie lokálnych súborov na Plasma Bigscreen umožňujúci navigáciu len pomocou diaľkového ovládača</p>
+    <p xml:lang="sl">Večpredstavnostni predvajalnik za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen in omogočanje krmiljenja z daljinskim upravljalnikom</p>
+    <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Plasma Büyükekran üzerinde, yerel dosyalarınızı oynatmak için yalnızca bir uzaktan kumanda ile dolaşıma izin veren bir ortam oynatıcısı</p>
+    <p xml:lang="ug">Plasma چوڭ ئېكرانىدا يەرلىك كۆپ ۋاسىتە مەزمۇنىنى ياڭرىتىشقا ئىشلىتىلىدىغان ياڭراتقۇچ، پەقەت تىزگىنەك بولسىلا كۇپايە</p>
     <p xml:lang="uk">Мультимедійний програвач для відтворення файлів у Plasma Bigscreen, для керування яким достатньо пристрою дистанційного керування</p>
+    <p xml:lang="zh-CN">用于在 Plasma 大屏幕上播放本地多媒体内容的播放器，只需遥控器即可控制</p>
+    <p xml:lang="zh-TW">在 Plasma 大螢幕上播放本機檔案用的多媒體播放器，僅需遙控器即可操控</p>
   </description>
   <project_group>KDE</project_group>
   <launchable type="desktop-id">org.kde.plank-player.desktop</launchable>
@@ -69,20 +131,41 @@
   <screenshots>
     <screenshot type="default">
       <caption>Plank Player</caption>
+      <caption xml:lang="ar">مشغل بلانك</caption>
       <caption xml:lang="ca">Reproductor Plank</caption>
       <caption xml:lang="ca-valencia">Reproductor Plank</caption>
+      <caption xml:lang="cs">Plank Player</caption>
+      <caption xml:lang="de">Plank Player</caption>
       <caption xml:lang="en-GB">Plank Player</caption>
       <caption xml:lang="eo">Plank Player</caption>
       <caption xml:lang="es">Plank Player</caption>
       <caption xml:lang="eu">Plank Jotzailea</caption>
+      <caption xml:lang="fi">Plank Player</caption>
+      <caption xml:lang="fr">Lecteur Plank</caption>
       <caption xml:lang="gl">Reprodutor Plank</caption>
       <caption xml:lang="he">נגן Plank</caption>
+      <caption xml:lang="ia">Plank Player</caption>
+      <caption xml:lang="it">Plank Player</caption>
+      <caption xml:lang="ka">PlankPlayer</caption>
+      <caption xml:lang="ko">Plank 플레이어</caption>
+      <caption xml:lang="lt">Plank leistuvė</caption>
+      <caption xml:lang="lv">Plank Player</caption>
       <caption xml:lang="nl">Plank-speler</caption>
+      <caption xml:lang="nn">Plank Player</caption>
+      <caption xml:lang="pl">Odtwarzacz Plank</caption>
       <caption xml:lang="pt">Leitor Plank</caption>
       <caption xml:lang="pt-BR">Plank Player</caption>
+      <caption xml:lang="ro">Lector Plank</caption>
+      <caption xml:lang="ru">Plank Player</caption>
       <caption xml:lang="sa">तख्ता खिलाडी</caption>
+      <caption xml:lang="sk">Prehrávač Plank</caption>
+      <caption xml:lang="sl">Plank Player</caption>
+      <caption xml:lang="sv">Plank spelare</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
+      <caption xml:lang="ug">Plank ياڭراتقۇچ</caption>
       <caption xml:lang="uk">Програвач Plank</caption>
+      <caption xml:lang="zh-CN">Plank 媒体播放器</caption>
+      <caption xml:lang="zh-TW">Plank 播放器</caption>
       <image>https://cdn.kde.org/screenshots/plank-player/plank-player.png</image>
     </screenshot>
   </screenshots>
