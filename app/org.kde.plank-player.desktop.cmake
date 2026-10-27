@@ -45,6 +45,7 @@ GenericName[ca]=Reproductor multimèdia per al Plasma Bigscreen
 GenericName[ca@valencia]=Reproductor multimèdia per a Plasma Bigscreen
 GenericName[cs]=Multimediální přehrávač pro Plasma Bigscreen
 GenericName[es]=Reproductor multimedia para Plasma Bigscreen
+GenericName[it]=Lettore multimediale per Plasma Bigscreen
 GenericName[ka]=მულტიმედიის დამკვრელი Plasma Bigscreen-ისთვის
 GenericName[lt]=Multimedijos leistuvė, skirta Plasma Bigscreen
 GenericName[nl]=Multimediaspeler voor Plasma Bigscreen
