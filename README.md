@@ -2,8 +2,8 @@
 
 Media player for playing local videos and music on Plasma Bigscreen.
 
-- Project page: https://invent.kde.org/plasma/plank-player
-- File issues: https://invent.kde.org/plasma/plank-player/-/work-items
+- Project page: https://invent.kde.org/plasma-bigscreen/plank-player
+- File issues: https://invent.kde.org/plasma-bigscreen/plank-player/-/work-items
 - Development channel: https://matrix.to/#/#plasma-bigscreen:kde.org
 
 #### Dependencies
