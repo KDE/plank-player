@@ -1,8 +1,6 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.30)
 
-project(PlankPlayer LANGUAGES CXX)
-set(PROJECT_VERSION "5.27.80")
-set(PROJECT_VERSION_MAJOR 5)
+project(PlankPlayer VERSION 26.11.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
