@@ -1,12 +1,12 @@
 # Translation of plank-player to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2022.
+# Karl Ove Hufthammer <karl@huftis.org>, 2022, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: plank-player\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-23 00:51+0000\n"
-"PO-Revision-Date: 2022-09-11 19:39+0200\n"
+"PO-Revision-Date: 2026-11-12 22:00+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -22,12 +22,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Karl Ove Hufthammer"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "karl@huftis.org"
 
 #: app/main.cpp:30 app/qml/Main.qml:23 app/qml/Main.qml:96
 #, fuzzy, kde-format
@@ -43,17 +43,17 @@ msgstr ""
 #: app/main.cpp:34
 #, kde-format
 msgid "© 2021–2026 KDE Community"
-msgstr ""
+msgstr "© 2021–2026 KDE-fellesskapet"
 
 #: app/main.cpp:35
 #, kde-format
 msgid "Aditya Mehra"
-msgstr ""
+msgstr "Aditya Mehra"
 
 #: app/main.cpp:36
 #, kde-format
 msgid "Devin Lin"
-msgstr ""
+msgstr "Devin Lin"
 
 #: app/main.cpp:44
 #, kde-format
@@ -69,7 +69,7 @@ msgstr ""
 #: app/qml/components/FileCard.qml:25
 #, kde-format
 msgid "Folder"
-msgstr ""
+msgstr "Mappe"
 
 #: app/qml/components/FileCard.qml:25
 #, kde-format
@@ -81,18 +81,18 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Go to Folder"
-msgstr ""
+msgstr "Gå til mappe"
 
 #: app/qml/components/LocationsDialog.qml:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Locations"
-msgstr ""
+msgstr "Stadar"
 
 #: app/qml/components/LocationsDialog.qml:81
 #, kde-format
 msgid "Type a folder…"
-msgstr ""
+msgstr "Skriv inn mappenamn …"
 
 #: app/qml/components/LocationsDialog.qml:109
 #, kde-format
@@ -109,19 +109,19 @@ msgstr ""
 #, kde-format
 msgctxt "@item track title and language"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:47
 #, kde-format
 msgctxt "@item numbered track"
 msgid "Track %1"
-msgstr ""
+msgstr "Spor %1"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:56
 #, kde-format
 msgctxt "@item no subtitles"
 msgid "Off"
-msgstr ""
+msgstr "Av"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:61
 #, kde-format
@@ -151,12 +151,12 @@ msgstr ""
 #, kde-format
 msgctxt "@item video fill mode"
 msgid "Stretch"
-msgstr ""
+msgstr "Strekk"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:125 app/qml/PlayerPage.qml:247
 #, kde-format
 msgid "Audio track"
-msgstr ""
+msgstr "Lydspor"
 
 #: app/qml/components/PlaybackOptionsDrawer.qml:126 app/qml/PlayerPage.qml:253
 #, kde-format
@@ -171,29 +171,29 @@ msgstr ""
 #: app/qml/components/PlaybackOptionsDrawer.qml:128 app/qml/PlayerPage.qml:264
 #, kde-format
 msgid "Picture"
-msgstr ""
+msgstr "Bilete"
 
 #: app/qml/HomePage.qml:19 app/qml/LibraryPage.qml:22
 #: app/qml/LibraryPage.qml:31
 #, kde-format
 msgid "Videos"
-msgstr ""
+msgstr "Videoar"
 
 #: app/qml/HomePage.qml:20 app/qml/LibraryPage.qml:23
 #: app/qml/LibraryPage.qml:32
 #, kde-format
 msgid "Music"
-msgstr ""
+msgstr "Musikk"
 
 #: app/qml/HomePage.qml:21 app/qml/LibraryPage.qml:24
 #, kde-format
 msgid "Downloads"
-msgstr ""
+msgstr "Nedlastingar"
 
 #: app/qml/HomePage.qml:22 app/qml/LibraryPage.qml:25 app/qml/Main.qml:51
 #, kde-format
 msgid "Home"
-msgstr ""
+msgstr "Heim"
 
 #: app/qml/HomePage.qml:71 app/qml/HomePage.qml:103
 #, kde-format
@@ -203,7 +203,7 @@ msgstr ""
 #: app/qml/HomePage.qml:71
 #, kde-format
 msgid "Welcome"
-msgstr ""
+msgstr "Velkommen"
 
 #: app/qml/HomePage.qml:72
 #, kde-format
@@ -213,7 +213,7 @@ msgstr ""
 #: app/qml/HomePage.qml:77 app/qml/HomePage.qml:195
 #, kde-format
 msgid "Resume"
-msgstr ""
+msgstr "Hald fram"
 
 #: app/qml/HomePage.qml:77
 #, kde-format
@@ -223,7 +223,7 @@ msgstr ""
 #: app/qml/HomePage.qml:88 app/qml/HomePage.qml:201
 #, kde-format
 msgid "Start over"
-msgstr ""
+msgstr "Start på nytt"
 
 #: app/qml/HomePage.qml:88
 #, kde-format
@@ -233,17 +233,17 @@ msgstr ""
 #: app/qml/HomePage.qml:132
 #, kde-format
 msgid "Recently played"
-msgstr ""
+msgstr "Nyleg avspela"
 
 #: app/qml/HomePage.qml:161
 #, kde-format
 msgid "Folders"
-msgstr ""
+msgstr "Mapper"
 
 #: app/qml/HomePage.qml:195
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Spel"
 
 #: app/qml/HomePage.qml:206
 #, kde-format
@@ -253,7 +253,7 @@ msgstr ""
 #: app/qml/LibraryPage.qml:26
 #, kde-format
 msgid "Computer"
-msgstr ""
+msgstr "Datamaskin"
 
 #: app/qml/LibraryPage.qml:30
 #, kde-format
@@ -273,17 +273,17 @@ msgstr ""
 #: app/qml/LibraryPage.qml:210
 #, kde-format
 msgid "Go up"
-msgstr ""
+msgstr "Gå opp"
 
 #: app/qml/Main.qml:57
 #, kde-format
 msgid "Library"
-msgstr ""
+msgstr "Bibliotek"
 
 #: app/qml/Main.qml:62
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Innstillingar"
 
 #: app/qml/MediaFiles.qml:80
 #, kde-format
@@ -347,7 +347,7 @@ msgstr ""
 #: app/qml/PlayerPage.qml:192
 #, kde-format
 msgid "Go back"
-msgstr ""
+msgstr "Gå tilbake"
 
 #: app/qml/PlayerPage.qml:209
 #, kde-format
@@ -371,7 +371,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: app/qml/SettingsPage.qml:37
 #, kde-format
@@ -402,4 +402,4 @@ msgstr ""
 #: app/qml/SettingsPage.qml:85
 #, kde-format
 msgid "Clear"
-msgstr ""
+msgstr "Tøm"
