@@ -31,6 +31,10 @@
   <name xml:lang="sa">तख्ता खिलाडी</name>
   <name xml:lang="sk">Prehrávač Plank</name>
   <name xml:lang="sl">Plank Player</name>
+  <name xml:lang="sr">Plank плејер</name>
+  <name xml:lang="sr-Latn">Plank plejer</name>
+  <name xml:lang="sr-ijekavian">Plank плејер</name>
+  <name xml:lang="sr-ijekavianlatin">Plank plejer</name>
   <name xml:lang="sv">Plank spelare</name>
   <name xml:lang="tr">Plank Oynatıcı</name>
   <name xml:lang="ug">Plank ياڭراتقۇچ</name>
@@ -62,6 +66,10 @@
   <summary xml:lang="ru">Проигрыватель мультимедиа для Plasma Bigscreen</summary>
   <summary xml:lang="sk">Multimediálny prehrávač pre Plasma Bigscreen</summary>
   <summary xml:lang="sl">Večpredstavnostni predvajalnik za Plasma Bigscreen</summary>
+  <summary xml:lang="sr">Мултимедијални плејер за Плазму за велики екран</summary>
+  <summary xml:lang="sr-Latn">Multimedijalni plejer za Plasmu za veliki ekran</summary>
+  <summary xml:lang="sr-ijekavian">Мултимедијални плејер за Плазму за велики екран</summary>
+  <summary xml:lang="sr-ijekavianlatin">Multimedijalni plejer za Plasmu za veliki ekran</summary>
   <summary xml:lang="sv">Multimediaspelare för Plasma Storbildsskärm</summary>
   <summary xml:lang="tr">Plasma Büyükekran için ortam oynatıcısı</summary>
   <summary xml:lang="ug">Plasma چوڭ ئېكراننىڭ كۆپ ۋاسىتە ياڭراتقۇچى</summary>
@@ -113,6 +121,10 @@
     <p xml:lang="sa">प्लाज्मा बिगस्क्रीन् इत्यत्र स्थानीयसञ्चिकाः वादयितुं बहुमाध्यमप्लेयरः केवलं दूरनियन्त्रणेन सह नेविगेशनस्य अनुमतिं ददाति</p>
     <p xml:lang="sk">Multimediálny prehrávač na prehrávanie lokálnych súborov na Plasma Bigscreen umožňujúci navigáciu len pomocou diaľkového ovládača</p>
     <p xml:lang="sl">Večpredstavnostni predvajalnik za predvajanje lokalnih datotek na velikem zaslonu Plasma Bigscreen in omogočanje krmiljenja z daljinskim upravljalnikom</p>
+    <p xml:lang="sr">Мултимедијални плејер за пуштање локалних фајлова на Плазми за велики екран, кроз који се можете кретати само даљинским управљачем</p>
+    <p xml:lang="sr-Latn">Multimedijalni plejer za puštanje lokalnih fajlova na Plasmi za veliki ekran, kroz koji se možete kretati samo daljinskim upravljačem</p>
+    <p xml:lang="sr-ijekavian">Мултимедијални плејер за пуштање локалних фајлова на Плазми за велики екран, кроз који се можете кретати само даљинским управљачем</p>
+    <p xml:lang="sr-ijekavianlatin">Multimedijalni plejer za puštanje lokalnih fajlova na Plasmi za veliki ekran, kroz koji se možete kretati samo daljinskim upravljačem</p>
     <p xml:lang="sv">Multimediaspelare för att spela lokala filer på Plasma Storbildsskärm som tillåter navigering med bara en fjärrkontroll</p>
     <p xml:lang="tr">Plasma Büyükekran üzerinde, yerel dosyalarınızı oynatmak için yalnızca bir uzaktan kumanda ile dolaşıma izin veren bir ortam oynatıcısı</p>
     <p xml:lang="ug">Plasma چوڭ ئېكرانىدا يەرلىك كۆپ ۋاسىتە مەزمۇنىنى ياڭرىتىشقا ئىشلىتىلىدىغان ياڭراتقۇچ، پەقەت تىزگىنەك بولسىلا كۇپايە</p>
@@ -160,6 +172,10 @@
       <caption xml:lang="sa">तख्ता खिलाडी</caption>
       <caption xml:lang="sk">Prehrávač Plank</caption>
       <caption xml:lang="sl">Plank Player</caption>
+      <caption xml:lang="sr">Plank плејер</caption>
+      <caption xml:lang="sr-Latn">Plank plejer</caption>
+      <caption xml:lang="sr-ijekavian">Plank плејер</caption>
+      <caption xml:lang="sr-ijekavianlatin">Plank plejer</caption>
       <caption xml:lang="sv">Plank spelare</caption>
       <caption xml:lang="tr">Plank Oynatıcı</caption>
       <caption xml:lang="ug">Plank ياڭراتقۇچ</caption>
