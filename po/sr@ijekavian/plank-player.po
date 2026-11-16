@@ -1,0 +1,404 @@
+# Nemanja Hiršl <nemhirsl@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: plank-player\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-23 00:51+0000\n"
+"PO-Revision-Date: 2026-11-14 19:40+0100\n"
+"Last-Translator: Nemanja Hiršl <nemhirsl@gmail.com>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Немања Хиршл"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nemhirsl@gmail.com"
+
+#: app/main.cpp:30 app/qml/Main.qml:23 app/qml/Main.qml:96
+#, kde-format
+msgid "Plank Player"
+msgstr "Plank плејер"
+
+#: app/main.cpp:32
+#, kde-format
+msgid "Play videos and music on the big screen"
+msgstr "Пуштајте видео и музику на великом екрану"
+
+#: app/main.cpp:34
+#, kde-format
+msgid "© 2021–2026 KDE Community"
+msgstr "© 2021–2026, заједница КДЕ‑а"
+
+#: app/main.cpp:35
+#, kde-format
+msgid "Aditya Mehra"
+msgstr "Aditya Mehra"
+
+#: app/main.cpp:36
+#, kde-format
+msgid "Devin Lin"
+msgstr "Devin Lin"
+
+#: app/main.cpp:44
+#, kde-format
+msgid "Video or audio file to play"
+msgstr "Видео или аудио фајл за пуштање"
+
+#: app/qml/components/Breadcrumbs.qml:85
+#, kde-format
+msgctxt "@action:button"
+msgid "%1, choose location"
+msgstr "%1, изабери локацију"
+
+#: app/qml/components/FileCard.qml:25
+#, kde-format
+msgid "Folder"
+msgstr "Фасцикла"
+
+#: app/qml/components/FileCard.qml:25
+#, kde-format
+msgctxt "@info file type and size"
+msgid "%1 · %2"
+msgstr "%1 · %2"
+
+#: app/qml/components/LocationsDialog.qml:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Go to Folder"
+msgstr "Одлазак у фасциклу"
+
+#: app/qml/components/LocationsDialog.qml:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Locations"
+msgstr "Локације"
+
+#: app/qml/components/LocationsDialog.qml:81
+#, kde-format
+msgid "Type a folder…"
+msgstr "Упиши фасциклу…"
+
+#: app/qml/components/LocationsDialog.qml:109
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Such as ~/Videos"
+msgstr "На примјер ~/Videos"
+
+#: app/qml/components/LocationsDialog.qml:134
+#, kde-format
+msgid "There's no folder at %1"
+msgstr "На путањи %1 нема фасцикле"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:45
+#, kde-format
+msgctxt "@item track title and language"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:47
+#, kde-format
+msgctxt "@item numbered track"
+msgid "Track %1"
+msgstr "стаза %1"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:56
+#, kde-format
+msgctxt "@item no subtitles"
+msgid "Off"
+msgstr "искључено"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:61
+#, kde-format
+msgctxt "@item playback speed"
+msgid "Normal"
+msgstr "нормална"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:61
+#, kde-format
+msgctxt "@item playback speed"
+msgid "%1×"
+msgstr "%1×"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:66
+#, kde-format
+msgctxt "@item video fill mode"
+msgid "Fit to screen"
+msgstr "уклапање у екран"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:67
+#, kde-format
+msgctxt "@item video fill mode"
+msgid "Fill screen"
+msgstr "попуњавање екрана"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:68
+#, kde-format
+msgctxt "@item video fill mode"
+msgid "Stretch"
+msgstr "растезање"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:125 app/qml/PlayerPage.qml:247
+#, kde-format
+msgid "Audio track"
+msgstr "Аудио стаза"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:126 app/qml/PlayerPage.qml:253
+#, kde-format
+msgid "Subtitles"
+msgstr "Титлови"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:127 app/qml/PlayerPage.qml:259
+#, kde-format
+msgid "Playback speed"
+msgstr "Брзина пуштања"
+
+#: app/qml/components/PlaybackOptionsDrawer.qml:128 app/qml/PlayerPage.qml:264
+#, kde-format
+msgid "Picture"
+msgstr "Слика"
+
+#: app/qml/HomePage.qml:19 app/qml/LibraryPage.qml:22
+#: app/qml/LibraryPage.qml:31
+#, kde-format
+msgid "Videos"
+msgstr "Видео"
+
+#: app/qml/HomePage.qml:20 app/qml/LibraryPage.qml:23
+#: app/qml/LibraryPage.qml:32
+#, kde-format
+msgid "Music"
+msgstr "Музика"
+
+#: app/qml/HomePage.qml:21 app/qml/LibraryPage.qml:24
+#, kde-format
+msgid "Downloads"
+msgstr "Преузимања"
+
+#: app/qml/HomePage.qml:22 app/qml/LibraryPage.qml:25 app/qml/Main.qml:51
+#, kde-format
+msgid "Home"
+msgstr "Домаће"
+
+#: app/qml/HomePage.qml:71 app/qml/HomePage.qml:103
+#, kde-format
+msgid "Continue watching"
+msgstr "Наставите гледање"
+
+#: app/qml/HomePage.qml:71
+#, kde-format
+msgid "Welcome"
+msgstr "Добро дошли"
+
+#: app/qml/HomePage.qml:72
+#, kde-format
+msgid "Play your media"
+msgstr "Пуштајте своје медије"
+
+#: app/qml/HomePage.qml:77 app/qml/HomePage.qml:195
+#, kde-format
+msgid "Resume"
+msgstr "Настави"
+
+#: app/qml/HomePage.qml:77
+#, kde-format
+msgid "Browse videos"
+msgstr "Прегледај видео снимке"
+
+#: app/qml/HomePage.qml:88 app/qml/HomePage.qml:201
+#, kde-format
+msgid "Start over"
+msgstr "Почни испочетка"
+
+#: app/qml/HomePage.qml:88
+#, kde-format
+msgid "Browse music"
+msgstr "Прегледај музику"
+
+#: app/qml/HomePage.qml:132
+#, kde-format
+msgid "Recently played"
+msgstr "Недавно пуштано"
+
+#: app/qml/HomePage.qml:161
+#, kde-format
+msgid "Folders"
+msgstr "Фасцикле"
+
+#: app/qml/HomePage.qml:195
+#, kde-format
+msgid "Play"
+msgstr "Пусти"
+
+#: app/qml/HomePage.qml:206
+#, kde-format
+msgid "Remove from history"
+msgstr "Уклони из историјата"
+
+#: app/qml/LibraryPage.qml:26
+#, kde-format
+msgid "Computer"
+msgstr "Рачунар"
+
+#: app/qml/LibraryPage.qml:30
+#, kde-format
+msgid "All"
+msgstr "Све"
+
+#: app/qml/LibraryPage.qml:207
+#, kde-format
+msgid "Nothing to play here"
+msgstr "Овдје нема ничега за пуштање"
+
+#: app/qml/LibraryPage.qml:208
+#, kde-format
+msgid "Videos, music and folders in %1 will appear here."
+msgstr "Овдје ће се појавити видео снимци, музика и фасцикле из %1."
+
+#: app/qml/LibraryPage.qml:210
+#, kde-format
+msgid "Go up"
+msgstr "Иди горе"
+
+#: app/qml/Main.qml:57
+#, kde-format
+msgid "Library"
+msgstr "Библиотека"
+
+#: app/qml/Main.qml:62
+#, kde-format
+msgid "Settings"
+msgstr "Поставке"
+
+#: app/qml/MediaFiles.qml:80
+#, kde-format
+msgctxt "@info bytes"
+msgid "B"
+msgstr "B"
+
+#: app/qml/MediaFiles.qml:80
+#, kde-format
+msgctxt "@info kilobytes"
+msgid "KB"
+msgstr "KB"
+
+#: app/qml/MediaFiles.qml:80
+#, kde-format
+msgctxt "@info megabytes"
+msgid "MB"
+msgstr "MB"
+
+#: app/qml/MediaFiles.qml:80
+#, kde-format
+msgctxt "@info gigabytes"
+msgid "GB"
+msgstr "GB"
+
+#: app/qml/MediaFiles.qml:87
+#, kde-format
+msgctxt "@info file size, e.g. 1.2 GB"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: app/qml/MediaFiles.qml:92
+#, kde-format
+msgctxt "@info time left to watch"
+msgid "%1 min left"
+msgid_plural "%1 min left"
+msgstr[0] "још %1 мин."
+msgstr[1] "још %1 мин."
+msgstr[2] "још %1 мин."
+msgstr[3] "још %1 мин."
+
+#: app/qml/PlayerPage.qml:112
+#, kde-format
+msgid "Resuming from %1"
+msgstr "Настављам од %1"
+
+#: app/qml/PlayerPage.qml:162
+#, kde-format
+msgctxt "@info song title and artist"
+msgid "%1 — %2"
+msgstr "%1 — %2"
+
+#: app/qml/PlayerPage.qml:189
+#, kde-format
+msgid "This file can't be played"
+msgstr "Овај фајл не може да се пусти"
+
+#: app/qml/PlayerPage.qml:192
+#, kde-format
+msgid "Play next"
+msgstr "Пусти сљедеће"
+
+#: app/qml/PlayerPage.qml:192
+#, kde-format
+msgid "Go back"
+msgstr "Иди назад"
+
+#: app/qml/PlayerPage.qml:209
+#, kde-format
+msgctxt "@info position in the play queue"
+msgid "%1 of %2"
+msgstr "%1 од %2"
+
+#: app/qml/PlayerPage.qml:218
+#, kde-format
+msgctxt "@info video height, such as 1080p"
+msgid "%1p"
+msgstr "%1p"
+
+#: app/qml/PlayerPage.qml:222
+#, kde-format
+msgctxt "@info playback speed"
+msgid "%1×"
+msgstr "%1×"
+
+#: app/qml/SettingsPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "General"
+msgstr "Опште"
+
+#: app/qml/SettingsPage.qml:37
+#, kde-format
+msgctxt "@title"
+msgid "History"
+msgstr "Историјат"
+
+#: app/qml/SettingsPage.qml:44
+#, kde-format
+msgid "Save watch history"
+msgstr "Сачувај историјат гледања"
+
+#: app/qml/SettingsPage.qml:55
+#, kde-format
+msgid "Clear watch history"
+msgstr "Очисти историјат гледања"
+
+#: app/qml/SettingsPage.qml:65
+#, kde-format
+msgid "Clear watch history?"
+msgstr "Очистити историјат гледања?"
+
+#: app/qml/SettingsPage.qml:78
+#, kde-format
+msgid "Your recently watched media and playback positions will be cleared."
+msgstr "Недавно гледани медији и положаји пуштања биће очишћени."
+
+#: app/qml/SettingsPage.qml:85
+#, kde-format
+msgid "Clear"
+msgstr "Очисти"
